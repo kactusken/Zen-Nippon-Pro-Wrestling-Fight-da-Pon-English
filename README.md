@@ -43,7 +43,7 @@ Tested in Mesen.
 - **Bug fixes.** The patch also fixes two bugs of the original game: a portrait drawn over a
   wrestler's sprite, and a gauge left on screen before a scene's first line.
 - **Hidden content.** See [docs/HIDDEN_CONTENT.md](docs/HIDDEN_CONTENT.md).
-- **Player's guide.** [docs/guide/](docs/guide/index.html) covers matches, every card and wrestler, maps of all seven boards, passwords and secrets.
+- **Player's guide.** [The guide](https://kactusken.github.io/Zen-Nippon-Pro-Wrestling-Fight-da-Pon-English/guide/) covers matches, every card and wrestler, maps of all seven boards, passwords and secrets.
 
 ## Reporting problems
 
@@ -69,7 +69,7 @@ the game's formats and rules.
 | [docs/EDITING.md](docs/EDITING.md) | Editing the in-game text graphics |
 | [docs/PATCHES.md](docs/PATCHES.md) | How each code patch works |
 | [docs/TECHNICAL.md](docs/TECHNICAL.md) | The game's ROM layout, data formats, and memory map |
-| [docs/guide/](docs/guide/index.html) | The player's guide: a page for GitHub Pages, with its data filled by `tools/guidedata.py` |
+| [docs/guide/](docs/guide/index.html) | Source of the [player's guide](https://kactusken.github.io/Zen-Nippon-Pro-Wrestling-Fight-da-Pon-English/guide/), with its data filled by `tools/guidedata.py` |
 | [docs/MATCHES.md](docs/MATCHES.md) | How matches work: cards, gauges and the rules behind them |
 | [docs/STORY.md](docs/STORY.md) | How the story mode works, with every chapter and board |
 | [docs/PLATFORM.md](docs/PLATFORM.md) | SNES pitfalls for this kind of work |
