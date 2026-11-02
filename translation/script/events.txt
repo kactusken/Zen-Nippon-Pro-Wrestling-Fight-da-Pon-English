@@ -1,0 +1,4935 @@
+# Event dialogue. One block per message; EN lines are joined and wrapped by the build
+# to 176 px, about 30 characters, two lines on screen.
+# The @ line: address, then clear (the box empties first), newline or more (carries on
+# in the same box), then the end code. Not for editing.
+# <9><a> is the wrestler's name: keep both, in that order. Only A-Z a-z 0-9, ASCII
+# punctuation and the ellipsis character.
+
+@ cd20 clear b
+# speaker: Baba, after losing a match: you get a new card and try again (owner, 2026-11-01)
+JP しかたない
+JP カードをめくるんだ
+EN Oh well...
+EN Time to flip a card!
+
+@ cd31 clear b
+# speaker: unknown, carries on from the line before
+JP カードが大変だ！！
+EN Card trouble!!
+
+@ cd3e clear b
+# speaker: unknown, carries on from the line before
+JP 技カードが1まい
+JP なくなってしまった！
+EN You lost 1 move card!
+
+@ cd53 clear b
+# speaker: unknown, carries on from the line before
+JP 技カードは
+JP なくならなかった！
+EN Your move card is safe!
+
+@ cd64 clear b
+# speaker: unknown, carries on from the line before
+JP 新しいカードを
+JP 手にいれた！
+EN You got a new card!
+
+@ cd76 clear b
+# speaker: unknown, carries on from the line before
+JP このカードは
+JP すでにもっている
+EN You already have this card.
+
+@ cd87 clear b
+# speaker: unknown, carries on from the line before
+JP 使うレスラーを一人
+JP えらんでください
+EN Choose a wrestler to use.
+
+@ cd9c clear b
+# speaker: unknown, carries on from the line before
+JP 1Ｐの使うレスラーを
+JP えらんでください
+EN 1P, choose your wrestler.
+
+@ cdb2 clear b
+# speaker: unknown, carries on from the line before
+JP 2Ｐの使うレスラーを
+JP えらんでください
+EN 2P, choose your wrestler.
+
+@ cdc8 clear b
+# speaker: unknown, carries on from the line before
+JP 相手の使うレスラーを
+JP えらんでください
+EN Choose your opponent's wrestler.
+
+@ cddf clear b
+# speaker: unknown, carries on from the line before
+JP ？？？？？？？？の巻
+EN The Case of ????????
+
+@ cdeb clear b
+# speaker: narrator: a chapter title
+JP 全日本プロレス全員集合の巻
+EN All Japan Pro Wrestling Roll Call!
+
+@ cdff clear 0
+# speaker: Baba
+# ends on its own after a moment: keep it short
+JP きょうから　いよいよ
+JP 世界最強タッグ決定
+JP リーグ戦がはじまるぞ
+EN World's Strongest Tag starts today!
+
+@ ce23 clear 0
+# speaker: a bystander, announcer or similar
+# ends on its own after a moment: keep it short
+JP ちょうかんでーす
+EN Morning paper!
+
+@ ce2d clear 0
+# speaker: a bystander, announcer or similar
+# ends on its own after a moment: keep it short
+JP ゆうかんでーす
+EN Evening paper!
+
+@ ce36 clear b
+# speaker: Baba
+JP みんなおそいな…
+EN Everyone's late...
+
+@ ce40 clear b
+# speaker: Rusher Kimura
+JP たいへんだーーーー！
+EN Big troubleee!
+
+@ ce4c more b
+# speaker: unknown, carries on from the line before
+JP アニキー
+EN Brooo!
+
+@ ce51 clear b
+# speaker: Rusher Kimura
+JP チコクしちゃたよーー
+JP 
+JP 試合がはじまるよー
+JP 
+JP リーグ戦にゆうしょう
+JP できないよーー！
+EN I'm laaate! The match is startin'! We'll never win the League now!!
+
+@ ce7e clear b
+# speaker: Baba
+JP ポー！
+EN Poh!
+
+@ ce83 clear b
+# speaker: Baba
+JP おちつかんか
+JP ラッシャー！
+EN Calm down, Rusher!
+
+@ ce92 clear b
+# speaker: Rusher Kimura
+JP そんなこといったって
+JP きょうは最強タッグの
+JP かいまく日なのに
+JP オレちこくしちゃって！
+EN But Bro! Today's opening day of the World's Strongest Tag, and I'm late!
+
+@ cebf clear b
+# speaker: Baba
+JP それが…
+JP メンバーぜんいん
+JP まだ来てないんだ
+EN About that... none of the others are here yet.
+
+@ ced8 clear b
+# speaker: Rusher Kimura
+JP えーーーっ！
+EN Whaaat!
+
+@ cee0 clear b
+# speaker: Rusher Kimura
+JP やったーーーー
+EN Yaaay!
+
+@ cee9 clear b
+# speaker: Rusher Kimura
+JP これでリーグ戦は
+JP ババ・キムラ組の
+JP 不戦勝だーーーー！
+EN Then Team Baba-Kimura wins the League by forfeeeit!
+
+@ cf0b clear b
+# speaker: Baba
+JP ばかなことを……
+JP いうんじゃない！
+EN Don't talk... such nonsense!
+
+@ cf1e more b
+# speaker: Baba
+JP そんなことでは
+JP お客さんが
+JP なっとくしないぞ！
+EN The fans would never stand for that!
+
+@ cf36 clear b
+# speaker: Baba
+JP 我々のモットーは…
+JP 明るく楽しく
+JP ハゲしいプロレスだ！
+EN Our motto is... bright, fun, BOLD wrestling!
+
+@ cf54 clear b
+# speaker: Rusher Kimura
+JP ハゲ…
+EN Bald...
+
+@ cf59 clear b
+# speaker: Rusher Kimura
+JP うっ！！
+EN Urk!!
+
+@ cf5f clear b
+# speaker: Baba
+JP もうすぐお客さんが
+JP くるぞ…
+EN The fans will be here soon...
+
+@ cf6f clear 0
+# speaker: Baba
+# ends on its own after a moment: keep it short
+JP とりあえず　みんなを
+JP さがしにいこう
+EN For now, let's go find them.
+
+@ cf83 clear 0
+# speaker: unknown, carries on from the line before
+# ends on its own after a moment: keep it short
+JP ここが三沢くんたちの
+JP 合宿所…
+EN Misawa's camp...
+
+@ cf97 clear b
+# speaker: Kobashi
+JP うわーー　もう
+JP 間にあわないっス！
+EN Aaah! We'll never make it, sir!
+
+@ cfaa clear b
+# speaker: Kobashi
+JP あーーっ　社長！
+EN Aaah! President!
+
+@ cfb6 clear b
+# speaker: Baba
+JP どうしたんだ
+JP コバシくん
+JP おそいじゃないか！
+EN What's going on, Kobashi? You're late!
+
+@ cfce clear b
+# speaker: Kobashi
+JP 申し訳ないっス
+EN I'm very sorry, sir!
+
+@ cfd9 clear b
+# speaker: Kobashi
+JP おれが朝の当番
+JP だったんスけど
+EN I had morning duty, sir,
+
+@ cfed clear b
+# speaker: Kobashi
+JP なぜか目ざましが
+JP こわれてたっス！
+EN but somehow the alarm clock broke!
+
+@ d001 clear b
+# speaker: Kikuchi
+JP まつんだ
+JP コバシくん！！
+EN Hold on, Kobashi!!
+
+@ d00f clear b
+# speaker: Kikuchi
+JP 社長！！コバシは
+JP 世界をめざす男
+EN President!! Kobashi has his eye on the world!
+
+@ d025 clear b
+# speaker: Kikuchi
+JP ここは自分が
+JP セキニンを…
+EN I'll take the blame for this...
+
+@ d035 clear b
+# speaker: Kobashi
+JP まってください
+JP キクチさん！！
+EN Please wait, Kikuchi!!
+
+@ d046 clear b
+# speaker: Kobashi
+JP 今日の当番はオレっス
+EN Today's duty was mine, sir!
+
+@ d055 clear b
+# speaker: Kobashi
+JP セキニンは
+JP 俺がとるっス！
+EN I'll take the blame, sir!
+
+@ d064 clear b
+# speaker: Misawa
+JP やめないか
+JP 2人とも！！
+EN Knock it off, you two!!
+
+@ d073 clear b
+# speaker: Misawa
+JP 社長　この合宿の
+JP いいだしっぺは
+EN President, the guy who came up with this camp...
+
+@ d088 clear b
+# speaker: Misawa
+JP ハッキリ言って
+JP オレだよネ！！
+EN Frankly, that was me, y'know!!
+
+@ d099 clear b
+# speaker: Misawa
+JP このシッパイの
+JP セキニンはオレが…
+EN So the blame for this flop is on me...
+
+@ d0ac clear b
+# speaker: Misawa
+JP 三冠ベルト
+JP へん上するよネ！！
+EN I'll give back the Triple Crown belt, y'know!!
+
+@ d0be clear b
+# speaker: Kobashi
+JP み、みさわさん！！
+EN M-Misawa!!
+
+@ d0c9 more b
+# speaker: Baba
+JP ！！
+JP 
+JP 三沢くんたちが決して
+JP たるんでいないことは
+JP よくわかった！！
+EN !! Misawa, I see now that you boys are not slacking at all!!
+
+@ d0ed clear b
+# speaker: Baba
+JP 実は他のチームも
+JP まだ　きとらんのだ
+EN Truth is, the other teams aren't here yet either.
+
+@ d102 clear b
+# speaker: Baba
+JP 早く会場に
+JP いきなさい
+EN Get to the arena, quickly.
+
+@ d111 clear b
+# speaker: Kikuchi
+JP わかりました！
+EN Understood!
+
+@ d11a clear b
+# speaker: Kobashi
+JP わかりましたっス！
+EN Understood, sir!
+
+@ d125 clear b
+# speaker: Misawa
+JP わかったよネ！
+EN Understood, y'know!
+
+@ d12e clear b
+# speaker: Akiyama
+JP 社長！
+EN President!
+
+@ d135 clear b
+# speaker: Akiyama
+JP それでは　ボクも
+JP いってきまーす
+EN Well then, I'm off toooo!
+
+@ d147 clear b
+# speaker: Baba
+JP アキヤマくん…
+JP ようりょうのいいやつだ
+EN Akiyama... that boy's a slick one.
+
+@ d15c clear b
+# speaker: Baba
+JP つぎは　つる田くんの
+JP ところにいくか…
+EN Next, I'll go see Tsuruta...
+
+@ d172 clear 0
+# speaker: Baba
+# ends on its own after a moment: keep it short
+JP たしか
+JP 聖鬼軍のけいこを
+JP 見ているはずだが…
+EN At Holy Demon Army practice...
+
+@ d18b clear 0
+# speaker: unknown, carries on from the line before
+# ends on its own after a moment: keep it short
+JP ここが聖鬼軍の
+JP 合宿所…
+EN The Holy Demon Army's camp...
+
+@ d19c clear b
+# speaker: Taue
+JP おーーーっ！
+EN Ooooh!
+
+@ d1a4 clear b
+# speaker: Tsuruta
+JP もういっちょいくぞ
+EN Here we go, one more!
+
+@ d1af clear b
+# speaker: Tsuruta
+JP 田上くん　もう1回！
+EN Taue, once more!
+
+@ d1bd clear b
+# speaker: Baba
+JP コラ　コラ！
+EN Hey! Hey!
+
+@ d1c5 clear b
+# speaker: Baba
+JP なにをのんびり
+JP おーの練習など
+JP しとるんだ
+JP つる田くん！
+EN Why are you lazing around practicing "Ooh!", Tsuruta!
+
+@ d1e6 clear b
+# speaker: Tsuruta
+JP あっ社長！
+EN Oh, President!
+
+@ d1ef clear b
+# speaker: Tsuruta
+JP 何いってるんですか
+JP さっき時計をみたら
+EN What do you mean? I just looked at the clock,
+
+@ d204 clear b
+# speaker: Tsuruta
+JP 1時間はよゆうが
+JP あったし…
+EN and we had 1 hour to spare...
+
+@ d214 clear b
+# speaker: Tsuruta
+JP 今もまだ
+JP 1時間…
+EN and it's still 1 hour now...
+
+@ d21f clear b
+# speaker: Tsuruta
+JP 1時間…？
+EN 1 hour...?
+
+@ d226 clear b
+# speaker: Tsuruta
+JP たしかさっきも…
+EN It said that a while ago, too...
+
+@ d230 clear b
+# speaker: Tsuruta
+JP あーーーっ！
+EN Aaaah!
+
+@ d238 clear b
+# speaker: Taue
+JP 止まってるーー！
+EN It's stoppeeed!
+
+@ d242 clear b
+# speaker: Tsuruta
+JP 田上くんっ！！なぜ
+JP 気づかないんだっ！
+EN Taue!! Why didn't you notice!?
+
+@ d259 clear b
+# speaker: Taue
+JP そんなーーー
+EN That's not faaair!
+
+@ d261 clear b
+# speaker: Tsuruta
+JP こうしちゃおれん
+JP 社長！スグに
+JP 会場にむかいます
+EN No time to lose! President, we'll head to the arena at once!
+
+@ d27e clear b
+# speaker: Baba
+JP うん…
+JP 
+JP 実は他のグループも
+JP きてないんだが…
+EN Mm... Truth is, the other groups aren't here yet either...
+
+@ d298 clear b
+# speaker: Baba
+JP すでに三沢くんたちが
+JP むかっているよ
+EN Misawa's crew are already on their way.
+
+@ d2ad clear b
+# speaker: Tsuruta
+JP なんですって
+EN What did you say!
+
+@ d2b5 clear b
+# speaker: Tsuruta
+JP 三沢くんには
+JP まけられないぞ
+EN We can't let Misawa beat us!
+
+@ d2c6 clear 0
+# speaker: Tsuruta
+# ends on its own after a moment: keep it short
+JP いそごう田上君
+EN Let's hurry, Taue!
+
+@ d2d1 clear b
+# speaker: Baba
+JP おい……
+EN Hey...
+
+@ d2d7 clear b
+# speaker: Kawada
+JP 何グズグズしてんだ
+JP オラァーーーー！！
+EN Quit draggin' your feet! Hrraaah!!
+
+@ d2ec clear b
+# speaker: Taue
+JP あっ川田くん！
+JP 何するんだよ！
+EN Ah, Kawada! What was that for!?
+
+@ d2ff clear b
+# speaker: Kawada
+JP けっ
+JP やっとシャキっと
+JP してきやがったか！
+EN Hmph! 'Bout time you two woke up!
+
+@ d316 clear b
+# speaker: Baba
+JP 川田くん…
+JP いたのか…
+EN Kawada... you were here...
+
+@ d325 clear b
+# speaker: Kawada
+JP あっ　社長
+EN Oh, President.
+
+@ d32e clear b
+# speaker: Kawada
+JP ゆうべ　おそくまで
+EN I was up late last night
+
+@ d339 newline b
+# speaker: Kawada
+JP 全日本プロレスの
+JP ちゅうけい見てたから
+EN watchin' the All Japan Pro Wrestling broadcast,
+
+@ d351 newline b
+# speaker: Kawada
+JP ねぼうしちゃったんだ
+EN so I overslept.
+
+@ d35d clear b
+# speaker: Baba
+JP 前の番組が
+JP おしたからなあ…
+EN The show before it did run over...
+
+@ d370 clear b
+# speaker: Taue
+JP とにかく　会場に
+JP いそごう
+EN Anyway, let's hurry to the arena.
+
+@ d380 clear b
+# speaker: Kawada
+JP へッ
+JP そうこなくっちゃ！
+EN Heh! Now you're talkin'!
+
+@ d38e clear b
+# speaker: Taue
+JP じゃあ　社長
+EN Well then, President,
+
+@ d398 clear b
+# speaker: Kawada
+JP いってくるぜ！
+EN we're off!
+
+@ d3a1 clear b
+# speaker: Baba
+JP つる田くんたちも
+JP おくれた理由は
+JP たんじゅんな
+JP ミスか…
+EN So Tsuruta's bunch were late over a simple mistake too...
+
+@ d3c2 clear b
+# speaker: Baba
+JP どうもへんだぞ
+EN Something is very odd here.
+
+@ d3cb clear b
+# speaker: Baba
+JP いよいよ次は
+JP 外人軍団のとまっている一流ホテルだな
+EN Next up: the foreign squad's first-class hotel.
+
+@ d3e9 clear 0
+# speaker: unknown, carries on from the line before
+# ends on its own after a moment: keep it short
+JP ここが悪役商会の
+JP ねじろか…
+EN Villains Inc.'s lair...
+
+@ d3fb clear b
+# speaker: Fuchi
+JP あー社長
+EN Ahh, President.
+
+@ d403 clear b
+# speaker: Fuchi
+JP いま昼メロがちょうど
+JP いいところなんですよ
+JP 
+JP 社長も
+JP 見ていきませんか
+EN The daytime soap's just gettin' to the good part. Why not stay and watch, President?
+
+@ d42b clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP フチの言うとおり
+JP 
+JP なかなか
+JP おもしろいですよ
+JP 
+JP なあ　イズミダ
+EN Like Fuchi says, it's pretty good stuff. Right, Izumida?
+
+@ d44d clear b
+# speaker: Izumida
+JP ハイ
+JP ドキドキするズミダ！
+EN Yes! It's a real nail-biter, zumida!
+
+@ d45c clear b
+# speaker: Baba
+JP 何言ってるんだ！
+JP もう試合の時間だぞ！！
+EN What are you talking about! It's time for the match!!
+
+@ d472 clear b
+# speaker: Fuchi
+JP また　社長　そんな…
+JP 今だってＴＶで
+JP 昼のドラマを…
+EN Oh, come now, President... Why, the daytime drama's on TV right now...
+
+@ d491 clear b
+# speaker: Izumida
+JP あれっ
+EN Huh?
+
+@ d496 clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP おかしいな
+JP エイッ
+EN That's odd. Hup!
+
+@ d4a1 clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP あーーっ買った
+JP ハズのないビデオが！
+EN Aaah! A tape we never bought!
+
+@ d4b6 clear b
+# speaker: Fuchi
+JP じゃあ今の
+JP ドラマもこれか！？
+EN Then the show we been watching is this?!
+
+@ d4c7 clear b
+# speaker: Izumida
+JP 社長の言ったことは
+JP 本当ズミダ
+EN What the President said was true, zumida.
+
+@ d4dc clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP てめー　イズミダ！
+JP おまえだなー！
+EN Why you, Izumida! This was you, wasn't it!
+
+@ d4ef clear b
+# speaker: Izumida
+JP プギャー！！
+EN Pugyaaa!!
+
+@ d4f7 clear b
+# speaker: Fuchi
+JP いい若けえモンが
+JP ビデオのあつかいくらい
+JP おぼえてやがれ！
+EN Young buck like you oughta know how to work a VCR, ya hear!
+
+@ d517 clear b
+# speaker: Izumida
+JP しらないズミダー！
+EN I don't know anything, zumidaaa!
+
+@ d522 clear b
+# speaker: Baba
+JP まあ　まちたまえ
+JP 悪いのはイズミダくん
+JP ではない
+EN Now, hold on. Izumida is not to blame.
+
+@ d53c clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP エーーーーッ！？
+EN Whaaat!?
+
+@ d546 clear b
+# speaker: Fuchi
+JP するってェとだれです
+EN So who done it, then?
+
+@ d552 clear b
+# speaker: Baba
+JP まだわからんのだが…
+JP とりあえず　君たちは
+JP 会場にいってくれ
+EN I don't know yet... For now, you men get to the arena.
+
+@ d573 clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP ハーーイ！
+EN Yes, siiir!
+
+@ d57a clear 0
+# speaker: Fuchi
+# ends on its own after a moment: keep it short
+JP いってまいりやす
+EN We're off!
+
+@ d584 clear 0
+# speaker: Izumida
+# ends on its own after a moment: keep it short
+JP こっちのほうが
+JP 速いズミダ
+EN This way's faster, zumida.
+
+@ d594 clear b
+# speaker: Baba
+JP 買ってもいないビデオがうごいてたなんて…
+JP おかしな話もあるものだ…
+EN A tape nobody bought, playing away... Strange things do happen...
+
+@ d5b9 clear b
+# speaker: Baba
+JP 次は三沢くんとこに
+JP いってみるか
+EN Next, I'd better look in on Misawa.
+
+@ d5cc clear b
+# speaker: Baba
+JP ここがガイジンたちの
+JP とまっている
+JP 一流ホテルか…
+EN So this is the first-class hotel where the foreign squad stays...
+
+@ d5e8 clear b
+# speaker: Baba
+JP おーーーーい
+JP 試合が
+JP はじまるぞーーーっ！！
+EN Heeeey! The match is about to staaart!!
+
+@ d600 clear b
+# speaker: Hansen
+JP 時計が
+JP こわれてるウィー！
+EN Clock is broken, Weee!
+
+@ d60f clear b
+# speaker: Baba
+JP ハンセン！
+EN Hansen!
+
+@ d616 clear b
+# speaker: Patriot
+JP 時計が
+JP 止まってマース！
+EN Clock has stopped...desu!
+
+@ d624 clear b
+# speaker: Baba
+JP パトリオット！
+EN Patriot!
+
+@ d62d clear b
+# speaker: Williams
+JP 朝メシにスイミン薬が
+JP 入ってたぞ！
+EN Somebody spiked breakfast with sleeping pills!
+
+@ d643 clear b
+# speaker: Gordy
+JP ねすごしちまったゼ！
+EN I overslept, damn it!
+
+@ d64f clear b
+# speaker: Baba
+JP ウイリアムス！
+EN Williams!
+
+@ d658 clear b
+# speaker: Baba
+JP ゴディー！
+EN Gordy!
+
+@ d65f clear b
+# speaker: Baba
+JP やはりガイジンたちも…
+EN So the foreign squad too...
+
+@ d66c clear b
+# speaker: Baba
+JP いったいだれが
+JP こんなマネを…
+EN Who on earth would do such a thing...
+
+@ d67d clear b
+# speaker: Baba
+JP そうか！
+EN That's it!
+
+@ d683 clear b
+# speaker: Baba
+JP 全日本プロレスの
+JP 試合のボーガイを
+JP たくらんでいるな！
+EN Someone is plotting to sabotage All Japan Pro Wrestling!
+
+@ d6a3 clear 0
+# speaker: Baba
+# ends on its own after a moment: keep it short
+JP こうしちゃおれん！
+JP 会場にいそがねば！
+EN No time to lose! To the arena!
+
+@ d6b9 clear b
+# speaker: Baba
+JP どうした？
+JP 
+JP おれがいなくても
+JP 試合をハジメられる
+JP だろう
+EN What's the matter? You can start the match without me, surely.
+
+@ d6d8 clear b
+# speaker: Misawa
+JP それが…
+JP 
+JP もう試合が
+JP ハジまってるよネ
+EN Well... the match has already started, y'know!
+
+@ d6ee clear b
+# speaker: Hansen
+JP それも　あんたの
+JP 試合ウィー
+EN And is your match, Weee!
+
+@ d6fe clear 0
+# speaker: Baba
+# ends on its own after a moment: keep it short
+JP なんだって？！
+EN What?!
+
+@ d707 clear 0
+# speaker: a bystander, announcer or similar
+# ends on its own after a moment: keep it short
+JP いいぞ！そこだ！
+JP ババー！！
+EN That's it! Go, Babaaa!!
+
+@ d717 clear b
+# speaker: Baba
+JP キサマ　なにものだ！
+EN You there! Who are you!
+
+@ d723 clear b
+# speaker: a bystander, announcer or similar
+JP ババが2人！！
+EN Two Babas!!
+
+@ d72d clear b
+# speaker: a bystander, announcer or similar
+JP いったいどっちが
+JP ホンモノだー？
+EN But which one is the real one?
+
+@ d73f clear b
+# speaker: Baba
+JP ポー！！
+EN Poh!!
+
+@ d745 clear b
+# speaker: a bystander, announcer or similar
+JP あーっ　片方のババは
+JP ニセモノだぁーーっ
+EN Aah! One of the Babas is a fake!
+
+@ d75d clear b
+# speaker: a bystander, announcer or similar
+JP みたこともない
+JP レスラーだぞ！！
+EN It's a wrestler no one's ever seen!!
+
+@ d76f clear b
+# speaker: Baba
+JP きさまが　選手を
+JP チコクさせた
+JP ちょう本人だな！！
+EN So you're the mastermind who made my wrestlers late!!
+
+@ d78e clear b
+# speaker: Hyperspace Mask
+JP フフフ　そのとおり
+JP 私は超時空仮面
+EN Heh heh heh, quite right. I am Hyperspace Mask.
+
+@ d7a3 clear b
+# speaker: Hyperspace Mask
+JP 私は
+JP 時間を思いどおりに
+JP あやつることができる
+EN I can bend time itself to my will.
+
+@ d7bc clear b
+# speaker: Baba
+JP あやつるって…
+JP 時計をこわしたりした
+JP だけじゃないか！
+EN Bend time? All you did was break some clocks!
+
+@ d7d9 clear b
+# speaker: Baba
+JP セコイぞ！！
+EN That's just petty!!
+
+@ d7e1 clear b
+# speaker: Hyperspace Mask
+JP ま、まんまと
+JP ひっかかり
+EN Y-you were to fall right into my trap...
+
+@ d7ef clear b
+# speaker: Hyperspace Mask
+JP 全日本をのっとれると
+JP 思ったのだ
+EN ...and All Japan would be mine!
+
+@ d804 clear b
+# speaker: Baba
+JP わたしがいるかぎり
+JP そうはさせん！！
+EN As long as I am here, that will not happen!!
+
+@ d818 clear b
+# speaker: Hyperspace Mask
+JP 力づくで…
+JP 勝負だ　ババ！！
+EN By force, then... Have at you, Baba!!
+
+@ d82b clear 0
+# speaker: Baba
+# ends on its own after a moment: keep it short
+JP いいだろう！
+EN Very well!
+
+@ d833 clear b
+# speaker: Tsuruta
+JP もう1度
+JP 勝負だ！！
+EN One more match!!
+
+@ d842 clear b
+# speaker: Hyperspace Mask
+JP ぬー　まだ
+JP いきておったか！
+EN Grr... Still alive, are you!
+
+@ d852 clear b
+# speaker: Baba
+JP 全日のハゲしい
+JP プロレスを
+JP あまく見ないことだ！
+EN Never underestimate All Japan's BOLD wrestling!
+
+@ d86e clear b
+# speaker: Hyperspace Mask
+JP ううっ…
+JP おぼえてろよっ
+EN Ugh... You'll pay for this!
+
+@ d87c clear b
+# speaker: Baba
+JP フン
+JP くちほどにも…
+EN Hmph. All talk...
+
+@ d888 clear b
+# speaker: Rusher Kimura
+JP アニキーーーーー！
+EN Brooooo!
+
+@ d893 clear b
+# speaker: Rusher Kimura
+JP 大変だよ　アニキの
+JP ニセモノが出て
+JP 試合をしてるんだって
+EN Big trouble, Bro! Some fake you is out there wrestling a match!
+
+@ d8b4 clear b
+# speaker: Rusher Kimura
+JP くそーーー
+EN Daaamn it!
+
+@ d8bb clear b
+# speaker: Rusher Kimura
+JP いったいどこの
+JP どいつだ！
+EN Who the heck could it be!
+
+@ d8ca clear b
+# speaker: Rusher Kimura
+JP オレがやっつけて
+JP やるからね　アニキ！
+EN I'll clobber him for you, Bro!
+
+@ d8df clear b
+# speaker: Baba
+JP ポー
+EN Poh!
+
+@ d8e3 clear b
+# speaker: Baba
+JP なんとかジャマ者も
+JP いなくなったし…
+EN With those pests finally out of the way...
+
+@ d8f8 clear b
+# speaker: Baba
+JP それでは　これから
+JP 予定通り
+EN Now then, as scheduled,
+
+@ d90b clear b
+# speaker: Baba
+JP 全日本プロレスを
+JP はじめます
+EN let All Japan Pro Wrestling begin.
+
+@ d91e clear b
+# speaker: narrator: a chapter title
+JP 決戦！
+JP あくのプロレス結社の巻
+EN Showdown! The Case of the Evil Wrestling Society
+
+@ d931 clear b
+# speaker: Baba
+JP そうか…
+JP そんなことがあったのか
+EN I see... So that's what happened.
+
+@ d943 clear b
+# speaker: Tsuruta
+JP 社長のパワーを
+JP しらべてたっていうのが
+EN The part about them studying your power, President...
+
+@ d95a clear b
+# speaker: Tsuruta
+JP 気になりますね
+EN That does worry me.
+
+@ d963 clear b
+# speaker: Misawa
+JP はっきりいって
+JP カンタンには
+EN Frankly, nobody could...
+
+@ d973 newline 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP マネできないと
+JP 思うけどネ
+EN ...copy it easily, y'know!
+
+@ d982 clear b
+# speaker: Rusher Kimura
+JP タイヘンだーーっ
+EN Big troubleee!
+
+@ d98c clear b
+# speaker: Rusher Kimura
+JP へんなレスラーが
+JP ハワイ中で大あばれ
+EN Weird wrestlers are going wild all over Hawaii!
+
+@ d9a2 clear b
+# speaker: Rusher Kimura
+JP それをあやつっている
+JP のが…
+EN And the one pulling their strings...
+
+@ d9b2 clear b
+# speaker: Baba
+JP どうした
+EN What is it?
+
+@ d9b8 clear b
+# speaker: Rusher Kimura
+JP アニキだって
+EN They say it's you, Bro!
+
+@ d9c0 clear b
+# speaker: Tsuruta
+JP えーーーっ
+EN Whaaat!
+
+@ d9c7 clear b
+# speaker: unknown, carries on from the line before
+JP えーーっス
+EN Whaaat, sir!
+
+@ d9ce clear b
+# speaker: Baba
+JP そんなことをした
+JP おぼえはないぞ
+EN I recall doing nothing of the kind.
+
+@ d9e0 clear b
+# speaker: Kobashi
+JP これは　れいの
+EN This must be the work of...
+
+@ d9e9 clear b
+# speaker: Kobashi
+JP 黒レス団のしわざに
+JP ちがいナイっス！
+EN ...that Black Wrestling Gang, sir!
+
+@ d9fe clear b
+# speaker: Baba
+JP なるほど…
+EN I see...
+
+@ da05 clear b
+# speaker: Kobashi
+JP いそいで奴らを
+JP とめないと，
+EN We have to stop them fast, sir...
+
+@ da16 clear b
+# speaker: Rusher Kimura
+JP でも　やつら
+EN But those guys...
+
+@ da1e clear b
+# speaker: Rusher Kimura
+JP 街中いたるところで
+JP あばれているんだよ！
+EN ...are running wild all over town!
+
+@ da35 clear b
+# speaker: Tsuruta
+JP やっかいだな…
+EN What a headache...
+
+@ da3e clear b
+# speaker: Tsuruta
+JP こうなったら敵の
+JP アジトにのりこまないと
+EN Then we'd better storm their hideout.
+
+@ da55 clear b
+# speaker: Misawa
+JP でも…どこだ？
+EN But... where is it?
+
+@ da5e clear b
+# speaker: Baba
+JP たしか　あつくて
+JP イオウくさいって
+EN As I recall, hot and reeking of sulfur...
+
+@ da71 clear b
+# speaker: Baba
+JP 下っぱがいってたなあ
+EN ...is what the underling said.
+
+@ da7d clear b
+# speaker: Misawa
+JP ひょっとして
+JP 火山のフン火口かもネ
+EN Maybe a volcano crater, y'know!
+
+@ da90 clear b
+# speaker: Tsuruta
+JP なるほど！
+EN I see!
+
+@ da97 clear b
+# speaker: Tsuruta
+JP きっとそれに
+JP ちがいないぞ！
+EN That must be it!
+
+@ daa7 clear b
+# speaker: Kobashi
+JP するとアジトは
+JP カメハメハ山っス！
+EN Then the hideout's on Mt. Kamehameha, sir!
+
+@ daba clear b
+# speaker: Baba
+JP ここはひとつ
+JP わたしがのりこもう
+EN Leave this to me. I shall go in myself.
+
+@ dacc clear 0
+# speaker: Rusher Kimura
+# ends on its own after a moment: keep it short
+JP えーーーっ
+JP ア、アニキーーー！！
+EN Whaaat! B-Brooo!!
+
+@ dade clear b
+# speaker: Baba
+JP 敵のアジトは
+JP ここにちがいないぞ
+EN The enemy hideout must be here.
+
+@ daf1 clear b
+# speaker: Red Bear
+JP よくここまで
+JP きたクマな
+EN So you made it this far, kuma.
+
+@ daff clear b
+# speaker: Baba
+JP あっ
+EN Oh!
+
+@ db03 clear b
+# speaker: Baba
+JP なんだ
+JP また　お前たち3人か？
+EN What, you three again?
+
+@ db16 clear b
+# speaker: Baba
+JP 黒レス団もメンバー
+JP いないんだな
+EN So the Black Wrestling Gang is short of members too.
+
+@ db29 clear b
+# speaker: Red Bear
+JP ばっ
+JP バカな事いうなクマ
+EN D-don't talk nonsense, kuma!
+
+@ db38 clear b
+# speaker: Red Bear
+JP 前は
+JP ウサ　ツタン　超時空の3人だったクマが
+EN Before, it was USA, Tutan and Hyperspace, kuma.
+
+@ db53 clear b
+# speaker: Red Bear
+JP 今日はウサのかわりに
+JP このレッドベアが
+EN But today, in USA's place, I, Red Bear...
+
+@ db69 clear b
+# speaker: Red Bear
+JP 相手になるクマ！！
+EN ...will take you on, kuma!!
+
+@ db76 clear b
+# speaker: Baba
+JP ウサもクマも
+JP 同じようなものだ！
+EN USA, kuma, what's the difference!
+
+@ db89 clear b
+# speaker: Baba
+JP あーーーっ
+JP ひょっとして　お前
+EN Aaah! Wait, could you be...
+
+@ db9b clear b
+# speaker: Baba
+JP ウサマスクの色ちがい
+JP じゃないか？
+EN ...just USA Mask in a different color?
+
+@ dbaf clear b
+# speaker: Red Bear
+JP あいつと俺とは何の
+JP 関係もないウサ…
+EN He and I have nothing to do with each other, usa...
+
+@ dbc3 newline b
+# speaker: Red Bear
+JP …………クマ
+EN ............kuma.
+
+@ dbcb clear b
+# speaker: Red Bear
+JP そうクマなー　時空！
+EN Isn't that so, kuma, Hyperspace!
+
+@ dbd7 clear b
+# speaker: Hyperspace Mask
+JP お…おう！！
+EN R-right!!
+
+@ dbdf clear b
+# speaker: Red Bear
+JP そうクマよな？　ツタン
+EN Isn't that so, kuma, Tutan?
+
+@ dbec clear b
+# speaker: Tutan Mask
+JP ま…まったく！！
+EN Qu-quite so!!
+
+@ dbf6 clear b
+# speaker: Red Bear
+JP と…とにかく
+EN A-anyway...
+
+@ dbfe clear b
+# speaker: Red Bear
+JP この火口の中の
+JP アジトには
+EN You'll never get to our hideout
+
+@ dc0e clear b
+# speaker: Red Bear
+JP いかせないぞ！！
+EN inside this crater!!
+
+@ dc18 clear b
+# speaker: Hyperspace Mask
+JP あーーーっ
+EN Aaah!!
+
+@ dc1f clear b
+# speaker: Tutan Mask
+JP バラしちゃった！
+EN You told him!
+
+@ dc29 clear b
+# speaker: Red Bear
+JP お…おのれババ
+JP なんとコーカツな
+EN C-curse you, Baba! How cunning!
+
+@ dc3b clear b
+# speaker: Red Bear
+JP こうなれば
+JP ちからずくクマ！！
+EN It'll have to be by force, kuma!!
+
+@ dc4c clear b
+# speaker: Baba
+JP もう一度勝負だ
+EN One more match.
+
+@ dc58 clear b
+# speaker: Red Bear
+JP あっ　また来たクマな！
+EN Ah, you came back, kuma!
+
+@ dc66 clear b
+# speaker: Red Bear
+JP どうせ　オレはアジトを
+JP バラしたつみで
+EN I already blabbed the hideout,
+
+@ dc7b newline b
+# speaker: Red Bear
+JP たたかれる身クマ！
+EN so I'm in for a pounding, kuma!
+
+@ dc87 clear 0
+# speaker: Red Bear
+# ends on its own after a moment: keep it short
+JP オマエをたおして
+JP 手がらをとるクマ！
+EN Beat you and I'm a hero, kuma!
+
+@ dc9c clear b
+# speaker: Red Bear
+JP おのれ…さすが
+JP 全日本プロレス！
+JP こうなったら…
+EN Curses... All Japan Pro Wrestling is no joke! So be it...
+
+@ dcb9 clear b
+# speaker: Red Bear
+JP レスラーとして
+JP 一からでなおしクマ！
+EN I'll start over as a wrestler, from square one, kuma!
+
+@ dccd clear b
+# speaker: Baba
+JP そうだ…
+JP それがいい
+EN Yes... that would be best.
+
+@ dcd9 clear 0
+# speaker: Baba
+# ends on its own after a moment: keep it short
+JP いくとするか
+EN Let us be off.
+
+@ dce1 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP あっ　ババ
+JP なぜここが！？
+EN Ah, Baba! How did you find this place?!
+
+@ dcf0 clear b
+# speaker: Baba
+JP 下っぱがにげるとき
+EN When your underling ran off,
+
+@ dcfb clear b
+# speaker: Baba
+JP イオウくさいとか…
+JP いってたぞ
+EN he said something about the stink of sulfur...
+
+@ dd0c clear b
+# speaker: a villain (portrait 13:8), read the context
+JP またキサマか！！
+EN You again!!
+
+@ dd16 clear b
+# speaker: unknown (portrait 13:3), read the context
+JP だ…だって…
+EN B-but...
+
+@ dd1e clear b
+# speaker: unknown (portrait 13:3), read the context
+JP あっ　そうだ
+EN Oh, that's right.
+
+@ dd26 newline b
+# speaker: unknown (portrait 13:3), read the context
+JP センタクもの
+JP ほしてこよう！
+EN I need to hang out the laundry!
+
+@ dd36 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP えーーい　こうなったら目にものみせてやる！！
+EN Grrr! Enough! Now I'll show you something you won't forget!!
+
+@ dd4f clear b
+# speaker: a villain (portrait 13:8), read the context
+JP いでよ　ババ！
+EN Come forth, Baba!
+
+@ dd58 clear b
+# speaker: Baba
+JP あっ
+EN Oh!
+
+@ dd5c clear b
+# speaker: Baba
+JP こんなところに
+JP カガミが！
+EN A mirror, in a place like this!
+
+@ dd6b clear b
+# speaker: Mecha Baba
+JP ボーー！
+EN Bohhh!
+
+@ dd71 clear b
+# speaker: Baba
+JP カガミがけったぞ
+EN The mirror kicked me.
+
+@ dd7b clear b
+# speaker: a villain (portrait 13:8), read the context
+JP あーーっ　しまった！
+EN Aaah, blast!
+
+@ dd87 clear b
+# speaker: Baba
+JP これは！
+JP カガミじゃない！
+EN What's this! It's not a mirror!
+
+@ dd96 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP ハーハハハ
+EN Ha ha ha ha!
+
+@ dd9d clear b
+# speaker: a villain (portrait 13:8), read the context
+JP ばれてしまっては
+JP しようがない
+EN Now that you know, there's no helping it.
+
+@ ddae clear b
+# speaker: a villain (portrait 13:8), read the context
+JP これはオマエの
+JP パワーをコピーし
+EN With power copied from you,
+
+@ ddc0 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP さらに最新の科学を
+JP くわえ
+EN plus the very latest science,
+
+@ ddd0 newline b
+# speaker: a villain (portrait 13:8), read the context
+JP パワーアップした
+JP メカババだ！
+EN this is the powered-up Mecha Baba!
+
+@ dde1 clear b
+# speaker: unknown, carries on from the line before
+JP メカババ…
+EN Mecha Baba...
+
+@ dde8 clear b
+# speaker: unknown, carries on from the line before
+JP なんつーネーミングだ…
+EN What kind of a name is that...
+
+@ ddf5 clear b
+# speaker: unknown, carries on from the line before
+JP うるさい！
+EN Silence!
+
+@ ddfc clear b
+# speaker: unknown, carries on from the line before
+JP さらにオマエの
+JP わざをコピーすれば
+EN And once it copies your moves too,
+
+@ de0f newline b
+# speaker: unknown, carries on from the line before
+JP カンペキになるのだ
+EN it will be perfect!
+
+@ de1a clear b
+# speaker: a villain (portrait 13:8), read the context
+JP いけっ　メカババ！
+EN Go, Mecha Baba!
+
+@ de25 clear b
+# speaker: unknown, carries on from the line before
+JP ボー
+EN Boh.
+
+@ de29 clear b
+# speaker: Baba
+JP くそう…
+JP さすがわたしのコピー
+JP 同じだ！
+EN Blast... My copy, all right. It's just the same!
+
+@ de40 clear b
+# speaker: unknown, carries on from the line before
+JP いけメカババ！
+EN Go, Mecha Baba!
+
+@ de49 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP あーーーっ
+JP わしのメカババが
+EN Aaah! My Mecha Baba!
+
+@ de59 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP そんな…
+EN It can't be...
+
+@ de5f clear b
+# speaker: Baba
+JP メカはしょせんメカ
+EN A machine is only a machine.
+
+@ de6a clear b
+# speaker: Baba
+JP かつことしか
+JP かんがえてないから
+EN It only thought about winning,
+
+@ de7c newline b
+# speaker: Baba
+JP まけるとこうなるんだ
+EN so losing does this to it.
+
+@ de88 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP だいたいズルいぞ
+EN And anyway, this isn't fair!
+
+@ de92 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP おまえたちは　まけても
+JP 何度でも戦えるのに
+EN You lot can lose and fight again as often as you like,
+
+@ deab newline b
+# speaker: a villain (portrait 13:8), read the context
+JP おれのレスラーは
+JP 1度負けると
+EN but my wrestlers lose once,
+
+@ debe newline b
+# speaker: a villain (portrait 13:8), read the context
+JP みんなおわりじゃ
+JP ないか！
+EN and they're all finished!
+
+@ decd clear b
+# speaker: a villain (portrait 13:8), read the context
+JP ゲームシステムに
+JP モンダイあるぞ！！
+EN There's a problem with this game's system!!
+
+@ dee1 clear b
+# speaker: Baba
+JP それはプロレスを
+JP 愛してないからだ
+EN That's because you don't love pro wrestling.
+
+@ def4 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP なに！
+EN What!
+
+@ def9 clear b
+# speaker: Baba
+JP 全日本のレスラーたちは
+JP プロレスが好きだから
+EN All Japan's wrestlers love pro wrestling,
+
+@ df14 newline b
+# speaker: Baba
+JP なんどでも
+JP たちあがるんだよ
+EN so they get up again, as many times as it takes.
+
+@ df24 clear b
+# speaker: Baba
+JP もう1度
+JP かんがえなおすことだ…
+EN Think it over once more...
+
+@ df37 clear b
+# speaker: unknown (portrait 13:3), read the context
+JP いやー　せんたくもの
+JP たまってて
+EN Phew, all that laundry had really piled up.
+
+@ df49 newline b
+# speaker: unknown (portrait 13:3), read the context
+JP タイヘンでしたよ
+EN What a chore.
+
+@ df53 clear b
+# speaker: unknown (portrait 13:3), read the context
+JP あっ　さっきそこで
+JP ババさんにあって
+EN Oh, I ran into Baba just now,
+
+@ df67 clear b
+# speaker: unknown (portrait 13:3), read the context
+JP こんなのもらいましたよ
+EN and he gave me this.
+
+@ df74 clear b
+# speaker: unknown (portrait 13:3), read the context
+JP 全日本プロレスのチケット…
+EN All Japan Pro Wrestling tickets...
+
+@ df86 clear b
+# speaker: narrator: a chapter title
+JP 馬場社長ゆうかいの巻
+EN The Case of the Kidnapped President Baba
+
+@ df96 clear b
+# speaker: Misawa
+JP ハワイだよねー
+EN It's Hawaii, y'know!
+
+@ df9f clear b
+# speaker: Tsuruta
+JP 海だ海だーーっ
+EN The sea! It's the seaaa!
+
+@ dfa8 clear b
+# speaker: Rusher Kimura
+JP 水着ギャルは
+JP どこだーーっ！
+EN Where are the bikini gaaals!
+
+@ dfba clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP 木村さんのせいで
+JP みんなにげたョ！
+EN Thanks to you, Kimura, they all ran off!
+
+@ dfcf clear b
+# speaker: Baba
+JP こうれいのハワイ休み
+EN Our annual Hawaii vacation.
+
+@ dfdb newline b
+# speaker: Baba
+JP みんなたのしんでいる
+JP ようだな…
+EN Everyone seems to be enjoying themselves...
+
+@ dfed clear b
+# speaker: Kawada
+JP オラオラー
+EN Take that! Take that!
+
+@ dff4 clear b
+# speaker: Izumida
+JP プギャー　プギャー！
+EN Pugyaa! Pugyaa!
+
+@ e000 clear 0
+# speaker: Baba
+# ends on its own after a moment: keep it short
+JP 何はともあれ…
+JP ねるとするか…
+EN Anyway... time for bed...
+
+@ e011 clear b
+# speaker: Izumida
+JP プギャーーーッ！
+JP 川田さんひどいズミダ
+EN Pugyaaa! Kawada, you're so mean, zumida!
+
+@ e028 clear b
+# speaker: Izumida
+JP 今のは
+JP いたいズミダよー！
+EN That one really hurt, zumida!
+
+@ e037 clear b
+# speaker: Kawada
+JP なんだアレ？
+EN What's that?
+
+@ e03f clear b
+# speaker: Izumida
+JP 変なレスラーでズミダ
+JP どこの団体ズミダ？
+EN Some weird wrestler, zumida! Which promotion's that, zumida?
+
+@ e058 clear b
+# speaker: Kawada
+JP さあな…
+EN Beats me...
+
+@ e05e clear 0
+# speaker: Kawada
+# ends on its own after a moment: keep it short
+JP 最近新しい団体
+JP 多いしな
+EN Lotta new ones lately.
+
+@ e070 clear b
+# speaker: Rusher Kimura
+JP おーーい　みんなー
+JP 大変だぞーっ！
+EN Heyyy, everybody! We got big trouble!
+
+@ e085 clear b
+# speaker: Rusher Kimura
+JP 大変だ
+JP 大変だよーーっ
+EN Big trouble! Real big troubleee!
+
+@ e096 clear b
+# speaker: Rusher Kimura
+JP おい　社長見たか？
+EN Hey, seen the President?
+
+@ e0a3 clear b
+# speaker: Tsuruta
+JP さっきから見てません
+JP どうしたんです？
+EN Not for a while now. What's up?
+
+@ e0b8 clear b
+# speaker: Rusher Kimura
+JP これ見てくれよー！！
+EN Take a look at this!!
+
+@ e0c4 clear b
+# speaker: Tsuruta
+JP なになに…
+EN Let's see...
+
+@ e0cb newline b
+# speaker: Tsuruta
+JP ビッグイベント！！
+JP ボヨヨンギャル大集合
+EN BIG EVENT!! Bouncy Gal Grand Gathering!
+
+@ e0e3 clear b
+# speaker: Rusher Kimura
+JP あっ　ちがった
+JP ちがった…
+EN Oops, wrong one... Wrong one...
+
+@ e0f2 clear b
+# speaker: Tsuruta
+JP えーーと
+EN Ummm...
+
+@ e0f8 clear b
+# speaker: Tsuruta
+JP 我々は
+JP 黒レス団
+EN We are the Black Wrestling Gang.
+
+@ e103 clear b
+# speaker: Tsuruta
+JP キミたち全日本の
+JP テキだ！
+EN We are the enemy of All Japan!
+
+@ e115 clear b
+# speaker: Misawa
+JP なに！
+EN What!
+
+@ e11a clear b
+# speaker: Tsuruta
+JP キミたちの社長
+JP ババはあずかった
+EN We are holding your President, Baba.
+
+@ e12e clear b
+# speaker: Taue
+JP えーーーーーーーっ
+EN Whaaaaaaat!
+
+@ e139 clear b
+# speaker: Tsuruta
+JP われわれの　目的は
+JP 全人類をレスラーにし
+EN Our goal is to turn all mankind into wrestlers
+
+@ e154 clear b
+# speaker: Tsuruta
+JP われわれがその
+JP 頂点にたつことだ！
+EN and to stand at their very peak!
+
+@ e169 clear b
+# speaker: Tsuruta
+JP そのためにもババの
+JP 力がひつようなのだ
+EN To that end, we need Baba's power.
+
+@ e17f clear b
+# speaker: Tsuruta
+JP 君たちも今のうちに
+EN While you still can,
+
+@ e18a newline b
+# speaker: Tsuruta
+JP われわれのしはいに
+JP ふくじゅうするがよい
+EN you had best submit to our rule!
+
+@ e1a0 clear b
+# speaker: Tsuruta
+JP なんだとーーーっ
+EN The nerve of theeem!
+
+@ e1aa clear b
+# speaker: Kobashi
+JP 大変っス早く社長を
+JP さがさないと
+EN Big trouble, sir! We've got to find the President!
+
+@ e1c1 clear b
+# speaker: Tsuruta
+JP でも　どこを？
+EN But where?
+
+@ e1ca clear b
+# speaker: Taue
+JP さし出しにんの
+JP 住所は？
+EN Is there a return address?
+
+@ e1db clear b
+# speaker: Tsuruta
+JP そんなもの
+JP あるワケが…
+EN Now why would there be one...
+
+@ e1e9 clear b
+# speaker: Tsuruta
+JP あった！
+EN Oh, there is!
+
+@ e1ef clear 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP どうやらカンタンに
+JP 見つかりそうだよね
+EN Should be easy to find, y'know!
+
+@ e204 clear b
+# speaker: Kawada
+JP あれ？　みんな
+JP どうしたんだ？
+EN Huh? What's with you guys?
+
+@ e215 clear b
+# speaker: Izumida
+JP 行くズミダか？
+EN Are you going, zumida?
+
+@ e21e clear b
+# speaker: Kawada
+JP オレ　人にあわせるの
+JP イヤだからよぉ…
+EN Goin' along with people ain't my thing...
+
+@ e234 clear b
+# speaker: Izumida
+JP そうズミダか
+EN I see, zumida.
+
+@ e23c clear 0
+# speaker: Kawada
+# ends on its own after a moment: keep it short
+JP いかねーとは
+JP いってねーだろ！
+EN Never said I wasn't goin'!
+
+@ e24d clear b
+# speaker: Kikuchi
+JP なんかそうぞう
+JP しいな……
+EN Sure is noisy around here...
+
+@ e25c clear b
+# speaker: Akiyama
+JP みてきましょうか…
+EN Should I go have a look...?
+
+@ e267 clear b
+# speaker: Kikuchi
+JP イヤッ！！
+EN No!!
+
+@ e26e clear b
+# speaker: Kikuchi
+JP お前はいずれ
+JP セカイをめざすオトコ…
+EN You'll have your eye on the world someday...
+
+@ e283 clear b
+# speaker: Kikuchi
+JP ここは　オレが…
+EN Leave this to me...
+
+@ e28d clear 0
+# speaker: Akiyama
+# ends on its own after a moment: keep it short
+JP ボクも行きますよーっ！
+EN I'm going too!
+
+@ e29a clear 0
+# speaker: unknown wrestler (portrait 12:3), read the context
+# ends on its own after a moment: keep it short
+JP なんだ、なんだ！？
+EN What's going on!?
+
+@ e2a5 clear b
+# speaker: unknown
+JP あーーっ　社長！
+EN Aaah! President!
+
+@ e2b1 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP ムッ！
+EN Hm!
+
+@ e2b6 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP キサマなぜここが
+JP わかった！？
+EN You there! How did you find this place!?
+
+@ e2c7 clear b
+# speaker: unknown
+JP なぜって…
+EN How? Well...
+
+@ e2ce clear b
+# speaker: unknown
+JP さし出し人の
+JP 住所があったよ
+EN There was a return address.
+
+@ e2e2 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP なんで　そんなの
+JP 書いたんだよ！
+EN Why did you put that on it!?
+
+@ e2f5 clear b
+# speaker: unknown (portrait 13:3), read the context
+JP だって
+EN Well...
+
+@ e2fa clear b
+# speaker: unknown (portrait 13:3), read the context
+JP とどかなかったら
+JP コマルじゃないですか
+EN We'd be in trouble if it didn't arrive, wouldn't we?
+
+@ e30f clear b
+# speaker: a villain (portrait 13:8), read the context
+JP ええいっ！！
+EN Enough!!
+
+@ e317 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP おぼえておくがいい
+EN Remember this well!
+
+@ e322 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP 私の名は
+JP タカアシガニ大専務！
+EN My name is Grand Director Spider Crab!
+
+@ e337 clear b
+# speaker: unknown
+JP 社長になにをした！
+EN What have you done to the President!?
+
+@ e344 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP ババのパワーの
+JP ひみつを
+EN The secret of Baba's power...
+
+@ e352 newline b
+# speaker: a villain (portrait 13:8), read the context
+JP しらべさせてもらった
+EN We took the liberty of studying it.
+
+@ e35e clear b
+# speaker: a villain (portrait 13:8), read the context
+JP これでババのパワーは
+JP われわれのモノだ！
+EN Now Baba's power is ours!
+
+@ e374 clear b
+# speaker: unknown
+JP キサマ！
+EN You fiend!
+
+@ e37a clear b
+# speaker: a villain (portrait 13:8), read the context
+JP ハハハ…
+EN Hahaha...
+
+@ e380 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP キミの敵は私ではない
+EN I am not your opponent.
+
+@ e38d clear 0
+# speaker: a villain (portrait 13:8), read the context
+# ends on its own after a moment: keep it short
+JP 我々のほこる
+JP このレスラーたちだ！
+EN Face our proud wrestlers!
+
+@ e3a0 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP おのれ…
+EN Curse you...
+
+@ e3a6 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP くそーー
+JP こうなったら…
+EN Blast! In that case...
+
+@ e3b4 clear b
+# speaker: Baba
+JP ふぁー
+EN Yaaawn...
+
+@ e3b9 clear b
+# speaker: Baba
+JP よくねた…
+EN What a good sleep...
+
+@ e3c0 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP 何っ！！
+EN What!!
+
+@ e3c6 clear b
+# speaker: Baba
+JP やはり　久々の
+JP 休みは…
+EN Nothing like a rare day off...
+
+@ e3d4 clear b
+# speaker: Baba
+JP あれ　たしか
+JP 砂浜にいたのに…
+EN Odd. I thought I was on the beach...
+
+@ e3e6 clear b
+# speaker: Baba
+JP なんだ　この
+JP ヘンな部屋…
+EN And what is this strange room...
+
+@ e3f6 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP おのれ　ババーーっ！
+EN Curse you, Babaaa!
+
+@ e402 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP いけーーっ！
+EN Attaaack!
+
+@ e40a clear b
+# speaker: Baba
+JP ポーーー！
+EN Pohhh!
+
+@ e411 clear b
+# speaker: unknown
+JP 社長…
+EN President...
+
+@ e418 newline b
+# speaker: unknown
+JP 今までずっと
+JP ねてたんですか…
+EN You've been asleep this whole time...?
+
+@ e429 clear b
+# speaker: Baba
+JP そうだけど…
+EN I have, yes...
+
+@ e431 newline b
+# speaker: Baba
+JP <9><a>くん
+JP なんでここにいるの？
+EN <9><a>, why are you here?
+
+@ e442 clear b
+# speaker: unknown
+JP あ…
+EN Oh...
+
+@ e446 clear b
+# speaker: unknown
+JP いや…
+JP いいんです
+EN No... Never mind.
+
+@ e451 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP くそー　ババ…
+JP おぼえてろよー
+EN Blast you, Baba... I'll remember this!
+
+@ e462 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP 近くの
+JP アジトへもどって
+EN We return to our nearby hideout...
+
+@ e470 clear b
+# speaker: a villain (portrait 13:8), read the context
+JP 作戦たてなおしだーっ！
+EN ...to redraw our plans!
+
+@ e47e clear b
+# speaker: unknown (portrait 13:3), read the context
+JP えーっ！？
+EN Whaaat!?
+
+@ e485 clear b
+# speaker: unknown (portrait 13:3), read the context
+JP またのあの　あつくて
+JP イオウくさい
+EN Not that hot, sulfur-stinking
+
+@ e498 newline b
+# speaker: unknown (portrait 13:3), read the context
+JP アジトですかー？
+EN hideout again, sir?
+
+@ e4a2 clear b
+# speaker: Baba
+JP なんにしても
+EN Be that as it may,
+
+@ e4aa newline b
+# speaker: Baba
+JP 久しぶりの休みで
+JP ヨクねむれたなあ
+EN what a fine sleep, on my first day off in ages.
+
+@ e4bd clear b
+# speaker: Baba
+JP 今日はジツに
+JP いい一日だった
+EN Truly, today was a good day.
+
+@ e4cf clear b
+# speaker: narrator: a chapter title
+JP ストレッチプラム
+JP さくれつ！の巻
+EN The Case of the
+EN Exploding Stretch Plum!
+
+@ e4e1 clear b
+# speaker: Izumida
+JP あっ川田さんだ
+EN Oh, it's Kawada.
+
+@ e4ec clear b
+# speaker: Izumida
+JP なんだか気げん
+JP わるそーだズミダ？
+EN He looks kinda grumpy, zumida?
+
+@ e4ff clear b
+# speaker: Izumida
+JP そうか今日の相手は
+JP ライバルのハンセン…
+EN Right, today he's facing his rival Hansen...
+
+@ e518 clear b
+# speaker: Izumida
+JP こっそり通るズミダ
+EN I'll sneak by, zumida.
+
+@ e524 clear b
+# speaker: Kawada
+JP ん！？
+EN Huh!?
+
+@ e529 clear b
+# speaker: Kawada
+JP あーっ！　めざわり
+JP なんだよ
+EN Argh! You're a real eyesore!
+
+@ e539 clear b
+# speaker: Kawada
+JP シャーーオラ！！
+EN Shaaa-ora!!
+
+@ e543 clear b
+# speaker: Kawada
+JP シャーオラ！！
+EN Sha-ora!!
+
+@ e54c clear b
+# speaker: Izumida
+JP プギャー
+EN Pugyaa!
+
+@ e552 clear b
+# speaker: Izumida
+JP プギャーーー！
+EN Pugyaaaa!
+
+@ e55b clear b
+# speaker: Taue
+JP やめないか　川田くん！
+EN Stop that, Kawada!
+
+@ e56a clear b
+# speaker: Kawada
+JP おれに
+JP さわるんじゃねー！
+EN Don't touch me!
+
+@ e579 clear b
+# speaker: Tsuruta
+JP ん？どうかしたの
+EN Hm? What's the matter?
+
+@ e583 clear b
+# speaker: Taue
+JP あぶない　つる田さん！
+EN Look out, Tsuruta!
+
+@ e591 clear b
+# speaker: Tsuruta
+JP なんだ　なんだ？
+EN What's going on?
+
+@ e59b clear b
+# speaker: Kawada
+JP くらえーー
+EN Take thiiis!
+
+@ e5a2 clear b
+# speaker: unknown, carries on from the line before
+JP つる田さん！
+EN Tsuruta!
+
+@ e5ab clear b
+# speaker: Taue
+JP まずい！
+EN Oh no!
+
+@ e5b1 clear b
+# speaker: Taue
+JP 川田くんの必さつ
+JP ストレッチプラムが……
+EN Kawada's killer Stretch Plum...
+
+@ e5ca clear b
+# speaker: Kawada
+JP あれ……みぎてをこう…あれれ　ひだりは…
+EN Huh... right arm goes like so... huh? And the left...
+
+@ e5e0 clear b
+# speaker: Tsuruta
+JP なにをするんだ
+JP 川田くん！
+EN What are you doing, Kawada!
+
+@ e5f1 clear b
+# speaker: Tsuruta
+JP よーすがヘンだぞ！
+EN You're acting strange!
+
+@ e5fc clear b
+# speaker: Tsuruta
+JP それに今の
+JP ストレッチプラムも
+EN And that Stretch Plum just now,
+
+@ e60d clear b
+# speaker: Tsuruta
+JP キミらしくないぞ！
+EN it wasn't like you at all!
+
+@ e618 clear b
+# speaker: Kawada
+JP へっ　つる田さんには
+JP かなわねーな
+EN Heh. Can't hide nothin' from you, Tsuruta.
+
+@ e62c clear 0
+# speaker: Kawada
+# ends on its own after a moment: keep it short
+JP きいてくれよ　じつは
+JP さっき…
+EN Listen. A while ago...
+
+@ e63d clear b
+# speaker: Kawada
+JP 試合会場にこようと
+EN I was headin' for the arena,
+
+@ e649 newline b
+# speaker: Kawada
+JP おうだんほどうを
+JP わたってたら…
+EN crossin' at the crosswalk,
+
+@ e65b clear b
+# speaker: Kawada
+JP 急にトラックが
+JP きやがって…
+EN when this truck comes outta nowhere...
+
+@ e66b clear b
+# speaker: Tsuruta
+JP ぶつかったのか！
+EN It hit you!?
+
+@ e675 clear b
+# speaker: Kawada
+JP もちろん　オレは
+EN Course, I
+
+@ e67f clear b
+# speaker: Kawada
+JP はんしゃてきに
+EN on pure reflex
+
+@ e688 clear b
+# speaker: Kawada
+JP スピンキックで
+JP 対抗したんだが…
+EN countered with a Spin Kick, but...
+
+@ e69b clear b
+# speaker: Taue
+JP え！？
+EN What!?
+
+@ e6a0 clear 0
+# speaker: Kawada
+# ends on its own after a moment: keep it short
+JP ぶつかっちまった…
+EN It hit me anyway...
+
+@ e6ab clear b
+# speaker: Kawada
+JP くそー　あの時
+EN Damn it. Back then,
+
+@ e6b4 clear b
+# speaker: Kawada
+JP もうすこし早く
+JP 気づいていれば…
+EN if I'd just noticed a little sooner...
+
+@ e6c7 clear b
+# speaker: Kawada
+JP エルボーにすれば
+JP よかった…
+EN I shoulda gone with an Elbow...
+
+@ e6d7 clear b
+# speaker: Baba
+JP ……
+EN ...
+
+@ e6db clear b
+# speaker: Tsuruta
+JP そうか　それで
+JP 気げんが悪かったのか
+EN I see. So that's why you've been in a bad mood.
+
+@ e6ef clear b
+# speaker: Kawada
+JP いや　それだけじゃ
+JP ないんだ…
+EN Nah. That ain't all of it...
+
+@ e700 clear b
+# speaker: Kawada
+JP ふっとばされた時
+JP 地面でアタマうって
+EN When it sent me flyin', I cracked my head on the ground,
+
+@ e716 clear b
+# speaker: Kawada
+JP そのひょうしに
+JP オレのキメ技の
+EN and the jolt knocked my finisher,
+
+@ e727 clear b
+# speaker: Kawada
+JP ストッレチプラムの
+JP やりかたを……
+EN the Stretch Plum, how it even goes...
+
+@ e73a clear b
+# speaker: Kawada
+JP わすれちまったんだ
+JP よぉーーーーーーっ！
+EN clean outta my heeeaaad!!
+
+@ e750 clear b
+# speaker: Tsuruta
+JP まずいぞ　川田くん
+EN This is bad, Kawada.
+
+@ e75d clear b
+# speaker: Tsuruta
+JP 今日の相手はあの
+JP ハンセンじゃないか！
+EN Today you're up against Hansen, of all people!
+
+@ e775 clear b
+# speaker: Tsuruta
+JP あの技がないと
+JP 負けは決定てき…
+EN Without that move, you're sure to lose...
+
+@ e789 clear b
+# speaker: Taue
+JP それどころか…
+JP ハンセンくんが
+JP 相手じゃ…
+EN Worse than that... With Hansen as your opponent...
+
+@ e7a2 clear b
+# speaker: Izumida
+JP あの技なしでは
+JP 大ケガするズミダよ！
+EN Without that move, you'll get badly hurt, zumida!
+
+@ e7b7 clear 0
+# speaker: Kawada
+# ends on its own after a moment: keep it short
+JP あーーーー
+JP どうすりゃいいんだー
+EN Aaargh! What am I gonna do!
+
+@ e7c9 clear b
+# speaker: Hansen
+JP なにーーーー
+EN Whaaaat!
+
+@ e7d1 clear b
+# speaker: Hansen
+JP ストレッチプラムが
+JP できないウィー？
+EN You no can do Stretch Plum, Weee?
+
+@ e7e5 clear b
+# speaker: Kawada
+JP そうだ…
+EN That's right...
+
+@ e7eb clear b
+# speaker: Kawada
+JP できるようになるには
+JP 一つしか方ほうはない！
+EN There's only one way to get it back!
+
+@ e804 clear b
+# speaker: Hansen
+JP 何ウィー？
+EN What way, Weee?
+
+@ e80b clear b
+# speaker: Kawada
+JP ストレッチ仙人を
+JP みつけて
+EN I gotta find the Stretch Hermit
+
+@ e81c clear b
+# speaker: Kawada
+JP もう一度おしえて
+JP もらうしか…
+EN and get him to teach me again...
+
+@ e82e clear b
+# speaker: Hansen
+JP ストレッチ仙人……
+JP …………ウィー？
+EN Stretch Hermit... ...Weee?
+
+@ e844 clear b
+# speaker: Taue
+JP はつみみだなー
+EN That's the first I've heard of him.
+
+@ e84d clear b
+# speaker: Tsuruta
+JP 川田くんて
+JP つきあいひろいなー
+EN Gee, Kawada, you sure know a lot of people.
+
+@ e860 clear b
+# speaker: Hansen
+JP しかたないウィー
+EN No choice, Weee!
+
+@ e86a clear b
+# speaker: Hansen
+JP ストレッチプラムの
+JP できないカワダに
+EN Kawada with no Stretch Plum,
+
+@ e87e clear b
+# speaker: Hansen
+JP 勝ってもうれしく
+JP ないウィー
+EN I beat him, no fun, Weee!
+
+@ e88f clear b
+# speaker: Hansen
+JP ストレッチ仙人を
+JP さがしてくるウィー
+EN You go find Stretch Hermit, Weee!
+
+@ e8a5 clear b
+# speaker: Hansen
+JP おれはまっててやる
+JP ウィー
+EN I wait for you, Weee!
+
+@ e8b4 clear b
+# speaker: unknown, carries on from the line before
+JP ウィーーーーーー
+EN Weeeeeee!
+
+@ e8be clear b
+# speaker: Kawada
+JP ありがとうハンセン
+EN Thanks, Hansen.
+
+@ e8c9 clear b
+# speaker: Kawada
+JP おまえって……
+JP いいやつだな
+EN You know... you're a good guy.
+
+@ e8d9 clear b
+# speaker: Hansen
+JP バカなこと
+JP いうんじゃないウィー
+EN No say stupid thing, Weee!
+
+@ e8eb clear b
+# speaker: Hansen
+JP おれはおまえと
+JP セイセイドウドウと…
+EN I want fight you fair and square...
+
+@ e8ff clear 0
+# speaker: Tsuruta
+# ends on its own after a moment: keep it short
+JP もう　いっちゃたよ
+EN He's gone already.
+
+@ e90a clear 0
+# speaker: Kawada
+# ends on its own after a moment: keep it short
+JP たしか仙人は…
+JP この山のてっぺんに
+JP いるはずなんだよな
+EN The Hermit's s'posed to be up top...
+
+@ e929 clear b
+# speaker: Kawada
+JP あれ？　だれも
+JP いないなーー
+EN Huh? Nobody here...
+
+@ e939 clear b
+# speaker: Kawada
+JP ん？　タテフダに
+JP 何かかいてあるぞ…
+EN Huh? There's somethin' on that signboard...
+
+@ e94d newline b
+# speaker: Kawada
+JP …旅行中…だとーー！
+JP まずいよーー
+EN ..."Away on a trip"...!? Aw, this is bad!
+
+@ e962 clear b
+# speaker: Kawada
+JP このままじゃ
+JP あの技なしで…
+EN At this rate, with no Plum...
+
+@ e972 newline b
+# speaker: Kawada
+JP ハンセンと
+JP 試合だぞーー
+EN I'm in a match with Hansen!
+
+@ e980 clear b
+# speaker: Kawada
+JP ん？
+EN Huh?
+
+@ e984 clear b
+# speaker: Kawada
+JP なんか
+JP 人のこえが…
+EN I hear somebody's voice...
+
+@ e991 clear b
+# speaker: unknown, carries on from the line before
+JP ゥィーーーー
+EN Weeeee...
+
+@ e999 clear b
+# speaker: Hansen
+JP やっぱりまてないウィー
+EN I no can wait after all, Weee!
+
+@ e9a6 clear b
+# speaker: Hansen
+JP カワダーーーー
+JP おまえをたおす
+EN Kawadaaaa! I take you down!
+
+@ e9b7 clear b
+# speaker: Hansen
+JP ウィーーーーーー！！
+EN WEEEEEEE!!
+
+@ e9c3 clear b
+# speaker: Kawada
+JP 何すんだ…
+EN What d'you think you're...
+
+@ e9ca clear b
+# speaker: Kawada
+JP よーーー！
+EN ...doooin'!
+
+@ e9d1 clear b
+# speaker: Hansen
+JP ウィーー！
+EN Weee!
+
+@ e9d8 clear b
+# speaker: Kawada
+JP おーーーーっ
+JP できたじゃねーか
+EN Whoooa! I pulled it off!
+
+@ e9e9 clear b
+# speaker: Kawada
+JP そうか　ハンセンの
+JP ラリアートが
+EN I get it! Hansen's Lariat
+
+@ e9fb clear b
+# speaker: Kawada
+JP トラックと同じ
+JP しょうげきで…
+EN hit as hard as that truck...
+
+@ ea0d clear b
+# speaker: Hansen
+JP やったウィー！
+EN We did it, Weee!
+
+@ ea16 clear b
+# speaker: Kawada
+JP よーし
+JP そーときまれば
+EN All right! In that case,
+
+@ ea23 clear b
+# speaker: Kawada
+JP 試合会場に
+JP もどるぞ！！
+EN back to the arena!!
+
+@ ea32 clear 0
+# speaker: Hansen
+# ends on its own after a moment: keep it short
+JP まつウィー！
+EN Wait, Weee!
+
+@ ea3a clear b
+# speaker: unknown
+JP くっそーー
+JP もう一度勝負だ！
+EN Damn it! One more match!
+
+@ ea4d clear 0
+# speaker: Hansen
+# ends on its own after a moment: keep it short
+JP のぞむところだ
+JP ウィーー！
+EN Bring it on, Weee!
+
+@ ea5c clear b
+# speaker: Hansen
+JP いい試合だったウィ
+EN Good match, Weee!
+
+@ ea67 clear b
+# speaker: Hansen
+JP やっぱりストレッチ
+JP プラムをもつオマエは
+EN I knew it. With Stretch Plum,
+
+@ ea7d newline b
+# speaker: Hansen
+JP 生き生きしてるウィ
+EN you are full of life, Weee!
+
+@ ea8a clear b
+# speaker: Kawada
+JP まー　その…なんだ
+EN Well... y'know... what I mean is...
+
+@ ea95 clear b
+# speaker: Kawada
+JP 試合まってくれたり
+EN waitin' for the match and all...
+
+@ eaa0 clear b
+# speaker: Kawada
+JP いろいろ
+JP ありがとよ…
+EN ...thanks for everything.
+
+@ eaad clear b
+# speaker: Izumida
+JP あっ　川田さんと
+JP ハンセンさんが
+EN Oh! Kawada and Hansen
+
+@ eac1 newline b
+# speaker: Izumida
+JP じっとにらみあってる
+JP ズミダ……
+EN are in a staredown, zumida...
+
+@ ead3 clear b
+# speaker: Izumida
+JP こっそり通るズミダ…
+EN I'll sneak past, zumida...
+
+@ eae0 clear b
+# speaker: Kawada
+JP なんなんだ
+JP おめーはよー！！
+EN What the hell is with you!!
+
+@ eaf0 clear b
+# speaker: Hansen
+JP あっ　今おれも
+JP けったウィ？
+EN Oh! Just now, I kick too, Weee?
+
+@ eb00 clear b
+# speaker: Kawada
+JP なに？
+EN What?
+
+@ eb05 clear b
+# speaker: Hansen
+JP けったウィー
+EN I kick, Weee!
+
+@ eb0d clear 0
+# speaker: Kawada
+# ends on its own after a moment: keep it short
+JP そんなもん
+JP 知るかーー！
+EN How should I know!
+
+@ eb1c clear b
+# speaker: narrator: a chapter title
+JP 敵か味方かしまうま仮面の巻
+EN Zebra Mask: Friend or Foe?
+
+@ eb2f clear b
+# speaker: unknown, carries on from the line before
+JP ぉーーっ
+EN ooh...
+
+@ eb35 clear b
+# speaker: Tsuruta
+JP こえがちいさいぞ
+JP 田上くん
+EN You're too quiet, Taue!
+
+@ eb46 clear b
+# speaker: Tsuruta
+JP よーしつぎは川田君だ
+EN All right, Kawada, you're next!
+
+@ eb54 clear b
+# speaker: Kawada
+JP お……おー
+EN O... Ooh.
+
+@ eb5b clear b
+# speaker: Tsuruta
+JP よーしひとまず休けい
+EN All right, time for a break!
+
+@ eb67 clear b
+# speaker: Tsuruta
+JP 山はいいよな
+EN Nothing beats the mountains.
+
+@ eb6f clear b
+# speaker: Tsuruta
+JP 社長も来たそうな
+JP かおしてたし
+EN The President looked like he wanted to come, too.
+
+@ eb83 clear 0
+# speaker: Tsuruta
+# ends on its own after a moment: keep it short
+JP さそえばよかった
+EN Should've invited him.
+
+@ eb8d clear b
+# speaker: Tsuruta
+JP よーし
+JP 休けいおわり
+EN All right, break's over.
+
+@ eb99 clear b
+# speaker: Tsuruta
+JP 次は3千かいおーっの
+JP れんしゅうだ
+EN Next up: 3,000 "Ooh!" drills!
+
+@ ebad clear b
+# speaker: Taue
+JP えーーーーーー
+EN Whaaaaat!
+
+@ ebb6 clear b
+# speaker: Kawada
+JP そりゃねーよ！
+EN Gimme a break!
+
+@ ebbf clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP あまいぞ
+JP つる田くん！！
+EN Too soft, Tsuruta!!
+
+@ ebce clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP そんなことでは
+EN At this rate...
+
+@ ebd7 newline b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP 三沢くんたちに
+JP 勝てはしないぞ！
+EN ...you'll never beat Misawa and his boys!
+
+@ ebeb clear b
+# speaker: Tsuruta
+JP だれのこえだ！？
+EN Who said that!?
+
+@ ebf5 clear b
+# speaker: Tsuruta
+JP ようがあるなら
+JP でてこい！！
+EN If you've got business with us, show yourself!!
+
+@ ec05 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP オレが
+JP コーチしてやる！！
+EN I'll coach you myself!!
+
+@ ec14 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP オレの名は
+JP しまうま仮面
+EN My name is Zebra Mask.
+
+@ ec24 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP 1・2・3・ポーッ
+JP 1万かいだ！
+EN 1, 2, 3, Poh! 10,000 times!
+
+@ ec37 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP これで三沢くんたちも
+JP ひとひねりだぞ！
+EN Then Misawa and his boys will be a pushover!
+
+@ ec4d clear b
+# speaker: Tsuruta
+JP あんた　ダレ！？
+EN Who ARE you!?
+
+@ ec57 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP 私は………
+JP 名のるわけにはいかん
+EN I... I cannot give my name.
+
+@ ec6a clear b
+# speaker: Tsuruta
+JP 最近ヘンなレスラーが
+JP うろついているって
+EN Lately, some weird wrestler's been prowling around...
+
+@ ec80 clear b
+# speaker: Tsuruta
+JP ウワサをきいたけれど
+EN ...or so the rumor goes.
+
+@ ec8c clear b
+# speaker: Kawada
+JP あーーー　まさか………
+EN Ahhh... No way...
+
+@ ec99 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP 私はプロレスを
+JP 愛しているだけだ
+EN I simply love pro wrestling.
+
+@ ecab newline b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP ヘンな奴などでは
+JP だんじてナイッ！
+EN I am no weirdo, absolutely NOT!
+
+@ ecbf clear b
+# speaker: Taue
+JP やっぱり　ヘンな奴
+JP ですよ
+EN He's a weirdo, all right.
+
+@ eccf clear b
+# speaker: Taue
+JP ねえ　つる田さん
+EN Isn't he, Tsuruta?
+
+@ ecda clear b
+# speaker: Tsuruta
+JP しかし
+EN Still...
+
+@ ecdf newline b
+# speaker: Tsuruta
+JP 1万かいというのは
+JP 一理あるなあ
+EN He's got a point about 10,000 times.
+
+@ ecf3 clear b
+# speaker: Tsuruta
+JP ポーッではなく
+JP おーっだったら
+EN If it were "Ooh!" instead of "Poh!"...
+
+@ ed04 clear b
+# speaker: Tsuruta
+JP やってもいいかな
+EN ...I might just do it.
+
+@ ed0e clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP い…いかん
+EN N-no!
+
+@ ed15 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP ポーッでないと
+JP 力がでないぞ
+EN You'll have no power without "Poh!"
+
+@ ed26 clear b
+# speaker: Tsuruta
+JP そうかなあ…
+EN You think so...?
+
+@ ed2e clear b
+# speaker: Tsuruta
+JP おーーっだ！
+EN It's "Oooh!"
+
+@ ed36 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP ポーーッだ！
+EN It's "Pohhh!"
+
+@ ed3e clear b
+# speaker: Taue
+JP 一万かい…
+EN 10,000 times...
+
+@ ed46 clear b
+# speaker: Kawada
+JP けっ　バカバカしい
+JP ついていけねーよ
+EN Tch, what a joke. I ain't goin' along with this.
+
+@ ed5a clear b
+# speaker: Taue
+JP にげよっか
+EN Wanna run for it?
+
+@ ed61 clear b
+# speaker: Kawada
+JP そうだな
+EN Yeah, let's.
+
+@ ed67 clear b
+# speaker: Tsuruta
+JP ハッ　田上くんと
+JP 川田くんがいないぞ！！
+EN Hey! Taue and Kawada are gone!!
+
+@ ed81 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP カレらはプロレスを
+JP なめとるぞ
+EN Those two don't take pro wrestling seriously!
+
+@ ed92 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP 私がわかいころは
+JP リキドーザン先生に…
+EN When I was young, Rikidozan would...
+
+@ eda9 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP いや！
+JP グチはいうまい！
+EN No! I shall not grumble!
+
+@ edb7 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP とにかく　おうのだ！
+EN Anyway, after them!
+
+@ edc3 clear b
+# speaker: Tsuruta
+JP あ　田上くん！！
+EN Ah, Taue!!
+
+@ edcf clear b
+# speaker: Tsuruta
+JP きさま何者だ
+JP 田上くんをはなせ！
+EN Who are you!? Let go of Taue!
+
+@ ede4 clear b
+# speaker: Red Bear
+JP フフフ
+EN Heh heh heh...
+
+@ ede9 clear b
+# speaker: unknown (portrait 13:3), read the context
+JP 田上くんはこれから
+EN From now on, Taue...
+
+@ edf6 newline b
+# speaker: unknown (portrait 13:3), read the context
+JP われわれのナカマに
+JP なってもらう
+EN ...will be joining our ranks.
+
+@ ee08 clear 0
+# speaker: Tsuruta
+# ends on its own after a moment: keep it short
+JP そうはさせん
+EN Oh no you don't!
+
+@ ee10 clear b
+# speaker: Tsuruta
+JP 田上くん…
+EN Taue...
+
+@ ee19 clear b
+# speaker: Tsuruta
+JP にげたことといい
+JP たるんでいるぞ！
+EN Running away like that... You've gone slack!
+
+@ ee2c clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP たるみきっとる！
+EN Slack to the core!
+
+@ ee36 clear b
+# speaker: Taue
+JP ううっ…
+EN Uuugh...
+
+@ ee3c clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP やはり
+JP きたえなおさなくては
+JP いかんぞ！
+EN Just as I thought, you need retraining from the ground up!
+
+@ ee52 clear b
+# speaker: Tsuruta
+JP いや　そのまえに
+JP 川田くんはどうした？
+EN No, wait. First, what happened to Kawada?
+
+@ ee69 clear b
+# speaker: Taue
+JP ぼくをみすてて先に
+EN He ditched me and went on ahead...
+
+@ ee75 clear 0
+# speaker: Tsuruta
+# ends on its own after a moment: keep it short
+JP おうのだ！
+EN After him!
+
+@ ee7c clear b
+# speaker: Tsuruta
+JP あーーっ川田くんっ！
+EN Aaah! Kawada!
+
+@ ee8a clear b
+# speaker: Kawada
+JP すまねぇー
+EN Sorryyy!
+
+@ ee91 clear b
+# speaker: Kawada
+JP 助けてくれよぉーー
+EN Get me outta heeere!
+
+@ ee9d clear b
+# speaker: unknown
+JP キサマ…何者だっ
+EN You... Who are you!?
+
+@ eea8 clear b
+# speaker: Tsuruta
+JP 川田くんからはなれろ！
+EN Get away from Kawada!
+
+@ eeb7 clear b
+# speaker: Tutan Mask
+JP わたしは
+EN I am...
+
+@ eebd clear b
+# speaker: Tutan Mask
+JP エジプトプロレス界の
+JP 王者　ツタン仮面！！
+EN ...Tutan Mask, king of Egyptian pro wrestling!!
+
+@ eed6 clear b
+# speaker: Tutan Mask
+JP 川田くんは我々の
+JP ナカマになるのだ！！
+EN Kawada shall join our ranks!!
+
+@ eeed clear b
+# speaker: Tutan Mask
+JP お…おのれ
+JP さすが全日本
+EN C-curse you! All Japan lives up to its name!
+
+@ eefe clear b
+# speaker: Tutan Mask
+JP にげだした選手なら
+JP ナカマになると思ったが…
+EN I thought a runaway would join us, but...
+
+@ ef18 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP ツタン仮面とやら
+JP 
+JP ウチのチームワークを
+JP あまくみないことだ！
+EN Tutan Mask, was it? Never underestimate our teamwork!
+
+@ ef3a clear b
+# speaker: Tutan Mask
+JP こうなったら
+JP さいごのシュダンだ！
+EN Then it's time for my last resort!
+
+@ ef4d clear b
+# speaker: Tutan Mask
+JP 王家の呪いを
+JP 受けるがよい！
+EN Suffer the curse of the pharaohs!
+
+@ ef5f clear b
+# speaker: Tutan Mask
+JP ハハハ
+JP さらばだ！
+EN Ha ha ha! Farewell!
+
+@ ef6a clear b
+# speaker: Tsuruta
+JP なんなんだいったい？
+EN What the heck was that?
+
+@ ef76 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP あーーっ　あれは！
+EN Aaah! That's...!
+
+@ ef81 clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP みんなにげろ！
+EN Everyone, run!
+
+@ ef8a clear b
+# speaker: unknown wrestler (portrait 12:e), read the context
+JP ポーーーッ！
+EN Pohhhh!
+
+@ ef92 clear b
+# speaker: unknown, carries on from the line before
+JP あーーっ
+EN Aaah!
+
+@ ef98 clear b
+# speaker: Tsuruta
+JP あのフォームは！
+EN That form!
+
+@ efa2 clear b
+# speaker: Tsuruta
+JP やっぱり社長でしたか…
+EN So it WAS you, President...
+
+@ efb1 clear b
+# speaker: Baba
+JP 私もムカシよくここで
+JP とっくんしたものだ…
+EN I, too, used to train here long ago...
+
+@ efc8 clear b
+# speaker: Baba
+JP 十六文のすぶり
+JP 一万かいとかな…
+EN 10,000 practice swings of the 16-Mon Kick and so on...
+
+@ efde clear b
+# speaker: Tsuruta
+JP よーし　それじゃ
+JP オレたちも一万かい…
+EN All right! Then we'll do 10,000 too...
+
+@ eff4 clear b
+# speaker: Kawada
+JP おう田上よぉ
+EN Hey, Taue...
+
+@ effe newline b
+# speaker: Kawada
+JP ハナシがアヤしく
+JP なってきやがったぜ！
+EN This is startin' to smell fishy!
+
+@ f013 clear b
+# speaker: Taue
+JP にげよっか
+EN Wanna run for it?
+
+@ f01a clear b
+# speaker: Tsuruta
+JP あいつら　また！
+EN Those two, again!
+
+@ f024 clear b
+# speaker: Baba
+JP コラ！！
+EN Hey!!
+
+@ f02a clear b
+# speaker: Baba
+JP まてーーーっ！
+EN Waaait!!
+
+@ f033 clear b
+# speaker: narrator: a chapter title
+JP 外人軍団裏切るの巻
+EN The Case of the Turncoat Foreign Squad
+
+@ f042 clear b
+# speaker: Misawa
+JP いやー
+JP はっきりいって
+JP 今日の試合は
+JP つかれたよネ…
+EN Man, frankly, today's match wore me out, y'know...
+
+@ f05f clear b
+# speaker: Misawa
+JP あやうくこの
+JP 三冠のベルトをうしなう
+JP ところだったよネ
+EN I nearly lost this Triple Crown belt, y'know.
+
+@ f07c clear b
+# speaker: Misawa
+JP まったくハンセンの
+JP やつ…
+EN That Hansen, I swear...
+
+@ f08b clear b
+# speaker: Hansen
+JP ニホンゴ！
+JP ワカリマセーーン！
+EN Japanese! No understaaand!
+
+@ f09c clear b
+# speaker: Williams
+JP ニホンゴ！
+EN Japanese!
+
+@ f0a3 more b
+# speaker: Gordy
+JP ワカリマセーーン！
+EN No understaaand!
+
+@ f0ad clear b
+# speaker: Misawa
+JP ゴディーと
+JP ウイリアムス！？
+EN Gordy and Williams!?
+
+@ f0bd clear b
+# speaker: Misawa
+JP パトリオット……
+JP だよネ？
+EN Patriot... right?
+
+@ f0cc clear 0
+# speaker: Hansen
+# ends on its own after a moment: keep it short
+JP ニホンゴ
+JP ワカリマセンウィー！
+EN No understand, Weee!
+
+@ f0dd clear b
+# speaker: unknown, carries on from the line before
+JP うぅ…
+EN Ugh...
+
+@ f0e2 clear b
+# speaker: Misawa
+JP ハッ…
+JP 今のはいったい…
+EN Huh... What was that just now...
+
+@ f0f0 clear b
+# speaker: Misawa
+JP あーーーーっ
+JP ベルトがないよネ
+EN Aaaah! My belt's gone, y'know!
+
+@ f101 clear b
+# speaker: Misawa
+JP はっきりいって
+JP 大変だよネ！
+EN Frankly, this is big trouble, y'know!
+
+@ f113 clear b
+# speaker: Misawa
+JP さっきの外人たちに
+JP ちがいないよネ
+EN Must've been the foreign squad just now, y'know.
+
+@ f127 clear 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP さがすよネ！
+EN After them, y'know!
+
+@ f12f clear b
+# speaker: Misawa
+JP あっ　キクチくんが！
+JP パトリオットさんに
+EN Oh! Kikuchi! Patriot's got him!
+
+@ f145 clear b
+# speaker: Misawa
+JP パトリオットさん！
+JP はっきりいって
+EN Patriot! Frankly,
+
+@ f158 clear b
+# speaker: Misawa
+JP 今すぐやめないと
+JP おこるよネ！
+EN if you don't stop right now, I'll get mad, y'know!
+
+@ f169 clear 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP おこったよネ！
+EN Now I'm mad, y'know!
+
+@ f172 clear b
+# speaker: Misawa
+JP まだやってるよネ！
+EN Still at it, y'know!
+
+@ f17d clear b
+# speaker: Misawa
+JP やめないと本当に
+JP おこるよネ！
+EN Stop, or I'll really get mad, y'know!
+
+@ f190 clear b
+# speaker: unknown, carries on from the line before
+JP うーーーーん
+EN Uuuuugh...
+
+@ f198 clear b
+# speaker: Misawa
+JP なんとか
+JP おとなしくなったよネ
+EN Well, he's quieted down, y'know.
+
+@ f1a9 clear b
+# speaker: Kikuchi
+JP み…みさわさん！
+EN M... Misawa!
+
+@ f1b3 clear b
+# speaker: Misawa
+JP 大丈夫かい
+JP キクチくん！
+EN You all right, Kikuchi?
+
+@ f1c4 clear b
+# speaker: Kikuchi
+JP なにがなんだか…
+EN I don't know what happened...
+
+@ f1ce clear b
+# speaker: Kikuchi
+JP 急にガイジン軍団が
+JP おそってきて…
+EN The foreign squad suddenly jumped us...
+
+@ f1e2 clear b
+# speaker: Kikuchi
+JP パトリ以外は　むこうに
+JP いきましたが…
+EN All but Patriot went that way...
+
+@ f1f7 clear b
+# speaker: Misawa
+JP 実は　ぼくもさっき
+JP おそわれたんだよネ
+EN Truth is, I got jumped too just now, y'know.
+
+@ f20c clear b
+# speaker: Kikuchi
+JP あーーっ　そういえば
+JP だいじなベルトが！！！
+EN Aaaah! That reminds me, our precious belt!!!
+
+@ f224 clear b
+# speaker: Misawa
+JP うばわれたみたい…
+JP だよネ
+EN Looks like it got stolen... y'know.
+
+@ f233 clear b
+# speaker: Kikuchi
+JP おのれーーーー
+EN Curse themmm!
+
+@ f23c clear b
+# speaker: Kikuchi
+JP こうなったら　奴らを
+JP おいかけましょう！
+EN That does it! Let's go after them!
+
+@ f253 clear b
+# speaker: Misawa
+JP さっきまでフラフラ
+JP だったのに…
+EN You were wobbling a minute ago...
+
+@ f265 clear 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP はっきりいって
+JP いそがしいやつだよネ
+EN Frankly, you're busy, y'know.
+
+@ f279 clear b
+# speaker: Misawa
+JP あっ　コバシくんが
+JP ウイリアムスくんに！！
+EN Oh! Kobashi! Williams has got him!!
+
+@ f290 clear b
+# speaker: Misawa
+JP ウイリアムスくん！！
+EN Williams!!
+
+@ f29c clear b
+# speaker: Misawa
+JP コバシくんを　今すぐ
+JP はなさないと
+EN Let Kobashi go right now,
+
+@ f2af clear b
+# speaker: Misawa
+JP はっきりいって
+JP おこるよネ！
+EN or frankly, I'll get mad, y'know!
+
+@ f2bf clear 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP 勝負するよネ！
+EN Let's fight, y'know!
+
+@ f2ca clear 0
+# speaker: unknown, carries on from the line before
+# ends on its own after a moment: keep it short
+JP まだやってるよネ！
+JP やめないと本当に
+JP おこるよネ！
+EN Still at it? I'll get mad, y'know!
+
+@ f2e7 clear b
+# speaker: unknown, carries on from the line before
+JP ウーン
+EN Uuugh...
+
+@ f2ec clear b
+# speaker: Misawa
+JP コバシくん！
+JP 大丈夫だよネ！？
+EN Kobashi! You're all right, y'know!?
+
+@ f300 clear b
+# speaker: Kobashi
+JP み……三沢さん！
+JP メンボクないっス！
+EN M... Misawa! I'm so ashamed, sir!
+
+@ f315 clear b
+# speaker: Misawa
+JP ガイジンたちに
+JP ベルトを
+JP うばわれたよネ
+EN The foreign squad took the belt, y'know.
+
+@ f32b clear b
+# speaker: Misawa
+JP おいかけるよネ！
+EN We're going after them, y'know!
+
+@ f335 clear b
+# speaker: Kobashi
+JP おれも　行くっス！
+EN I'm coming too, sir!
+
+@ f340 clear b
+# speaker: Kikuchi
+JP ゴディーさんが
+JP 病院をこわしてるぞ！
+EN Gordy's wrecking the hospital!
+
+@ f355 clear b
+# speaker: Kobashi
+JP 大変っス　あれじゃ
+JP かんじゃさんが
+JP ねむれないっス！
+EN Big trouble! The patients won't get any sleep, sir!
+
+@ f373 clear b
+# speaker: Kobashi
+JP 全日本プロレスの
+JP 面目丸つぶれっッス！
+EN All Japan Pro Wrestling will lose all face, sir!
+
+@ f38d clear b
+# speaker: Misawa
+JP ゴディー！！
+JP かんじゃさんの
+JP メイワクだよネ！
+EN Gordy!! You're bothering the patients, y'know!
+
+@ f3a6 clear b
+# speaker: Misawa
+JP やめたほうが
+JP いいよネ！！
+EN You'd better stop, y'know!!
+
+@ f3b5 clear 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP ききあきたよネ！
+EN Heard enough, y'know!
+
+@ f3bf clear b
+# speaker: Misawa
+JP まだやってるよネ！
+EN Still at it, y'know!
+
+@ f3ca clear b
+# speaker: Misawa
+JP やめないと本当に
+JP おこるよネ！
+EN Stop, or I'll really get mad, y'know!
+
+@ f3dd clear b
+# speaker: Misawa
+JP はっきりいって
+EN Frankly,
+
+@ f3e6 newline b
+# speaker: Misawa
+JP 急に　外人せん手たちが
+JP あばれだしたのは
+EN these foreign wrestlers suddenly running wild...
+
+@ f3fe clear b
+# speaker: Misawa
+JP どうもおかしいよネ
+EN Something's fishy about it, y'know.
+
+@ f409 clear b
+# speaker: Kobashi
+JP なにかワケがあるとしか
+JP 思えないっス
+EN There's got to be a reason for it, sir.
+
+@ f41d clear b
+# speaker: Hansen
+JP ゥィーーー
+EN Weeeee...
+
+@ f424 clear b
+# speaker: Misawa
+JP 今度はハンセンか…
+EN Now it's Hansen...
+
+@ f430 clear b
+# speaker: Misawa
+JP やはりベルトを
+JP もってるのは
+EN So the guy with the belt
+
+@ f440 newline 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP ハンセンかも
+JP しれないよネ
+EN might be Hansen, y'know.
+
+@ f44f clear b
+# speaker: Kikuchi
+JP ああっ！　ハンセンが
+JP 学校を！！
+EN Aaah! Hansen's wrecking the school!!
+
+@ f461 clear b
+# speaker: Kobashi
+JP このままじゃ　明日から
+EN If this goes on, come tomorrow
+
+@ f470 newline b
+# speaker: Kobashi
+JP 子供たちの
+JP 勉強する所が
+EN the kids will have no place
+
+@ f480 newline b
+# speaker: Kobashi
+JP なくなるっス！！
+EN to study, sir!!
+
+@ f48a clear b
+# speaker: Misawa
+JP それにベルトが
+JP みえないよネ！
+EN And I don't see the belt, y'know!
+
+@ f49b clear b
+# speaker: Misawa
+JP おかしいよネ！
+EN That's strange, y'know!
+
+@ f4a4 clear b
+# speaker: Misawa
+JP ハンセンをたおして
+EN We'll have to beat Hansen
+
+@ f4af clear 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP ベルトのありかを
+JP 聞くしかないよネ！
+EN and ask where it is, y'know!
+
+@ f4c4 clear b
+# speaker: unknown, carries on from the line before
+JP まだやってるよネ！
+EN Still at it, y'know!
+
+@ f4cf clear b
+# speaker: unknown, carries on from the line before
+JP やめないと本当に
+JP おこるよネ！
+EN Stop, or I'll really get mad, y'know!
+
+@ f4e2 clear b
+# speaker: Misawa
+JP ハンセンくん
+JP 正気にもどったよね…
+EN Hansen, you're back to your senses, y'know...
+
+@ f4f6 clear b
+# speaker: Hansen
+JP オォ　ミサワ！
+EN Ohh, Misawa!
+
+@ f4ff clear b
+# speaker: Misawa
+JP いったい何が
+JP あったのか
+EN Just what happened
+
+@ f50d newline b
+# speaker: Misawa
+JP 話してほしいよネ
+EN is what I'd like to hear, y'know.
+
+@ f518 clear b
+# speaker: Hansen
+JP ウゥ…
+JP 試合会場で
+JP あやしいマスクマンが
+EN Uuh... At arena, shady masked man
+
+@ f52f clear b
+# speaker: Hansen
+JP サイミンジュツを
+JP オレにかけたウィー！
+EN put hypnotism on me, Weee!
+
+@ f544 clear b
+# speaker: Kikuchi
+JP マスクマン？
+EN Masked man?
+
+@ f54c clear b
+# speaker: Kikuchi
+JP サイミンジュツ？
+EN Hypnotism?
+
+@ f556 clear b
+# speaker: Kobashi
+JP そいつがベルトを
+EN That guy must be the one
+
+@ f560 newline b
+# speaker: Kobashi
+JP うばったに
+JP ちがいないっス！！
+EN who stole the belt, sir!!
+
+@ f571 clear b
+# speaker: Misawa
+JP とりあえず
+EN For now,
+
+@ f578 clear 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP 試合会場に
+JP もどってみるよネ！！
+EN back to the arena, y'know!!
+
+@ f58b clear 0
+# speaker: unknown, carries on from the line before
+# ends on its own after a moment: keep it short
+JP とりあえず中に
+JP はいってみるよネ
+EN Let's go inside, y'know.
+
+@ f59e clear 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP 3冠ベルトだよね！
+EN The belt, y'know!
+
+@ f5a9 clear 0
+# speaker: USA Mask
+# ends on its own after a moment: keep it short
+JP ウササササ…
+EN Usasasasa...
+
+@ f5b1 clear b
+# speaker: Kobashi
+JP ムッ！
+EN Hm!
+
+@ f5b6 clear b
+# speaker: USA Mask
+JP オレの名はウサマスク
+EN My name is USA Mask.
+
+@ f5c3 clear b
+# speaker: Kikuchi
+JP ウサマスク？
+EN USA Mask?
+
+@ f5cb clear b
+# speaker: Kobashi
+JP キサマの目的は
+JP なにっス！
+EN You fiend! What are you after, sir!
+
+@ f5dc clear b
+# speaker: USA Mask
+JP オレの目的は…
+EN What I'm after...
+
+@ f5e7 clear b
+# speaker: USA Mask
+JP 日本になじんだ
+JP 外人レスラーを
+EN is to take foreign wrestlers who've settled into Japan,
+
+@ f5fb newline b
+# speaker: USA Mask
+JP サイミンジュツで
+EN and with hypnotism,
+
+@ f605 newline b
+# speaker: USA Mask
+JP 日本ギライレスラーに
+JP することウサ！
+EN turn them into Japan-hating wrestlers, usa!
+
+@ f61b clear b
+# speaker: Kobashi
+JP そんなことをして
+JP 何になるっス！
+EN And what good will that do, sir!
+
+@ f62d clear b
+# speaker: USA Mask
+JP 日本がイヤになった
+JP ガイジンレスラーは
+EN Foreign wrestlers fed up with Japan
+
+@ f644 clear b
+# speaker: USA Mask
+JP マチでおおあばれ！
+EN go on a rampage in town!
+
+@ f64f clear b
+# speaker: USA Mask
+JP 全日本プロレスの
+JP ひょうばんは…
+EN And All Japan Pro Wrestling's good name...
+
+@ f664 clear b
+# speaker: USA Mask
+JP 地におちるウサ！
+EN falls into the dirt, usa!
+
+@ f66f clear b
+# speaker: USA Mask
+JP ウーササササ！
+EN Uusasasasa!
+
+@ f678 clear b
+# speaker: Misawa
+JP だが　そのけいかくも
+EN But that scheme of yours
+
+@ f684 newline b
+# speaker: Misawa
+JP オレたちが
+JP つぶしたよネ！
+EN we just crushed, y'know!
+
+@ f693 clear b
+# speaker: USA Mask
+JP こうなったら…
+EN Very well, then...
+
+@ f69c clear b
+# speaker: USA Mask
+JP おまえたちに
+JP サイミンををかけるウサ
+EN I'll hypnotize all of you, usa!
+
+@ f6b0 clear b
+# speaker: Misawa
+JP なに！？
+EN What!?
+
+@ f6b6 clear b
+# speaker: USA Mask
+JP これを　みつめるウサ
+EN Stare at this, usa.
+
+@ f6c2 clear b
+# speaker: Misawa
+JP いやだ！
+EN No way!
+
+@ f6c8 clear b
+# speaker: USA Mask
+JP みないと　サイミン
+JP かからないウサ！
+EN If you don't look, the hypnosis won't work, usa!
+
+@ f6dc clear b
+# speaker: Misawa
+JP かかりたくないよネ！
+EN I don't want it to work, y'know!
+
+@ f6e8 clear b
+# speaker: Kikuchi
+JP あんなのにひっかかる
+JP なんて…
+EN To fall for a thing like that...
+
+@ f6f9 clear b
+# speaker: Kobashi
+JP ハンセンくんたちは
+JP お人よしっス！
+EN Hansen and the guys are too trusting, sir!
+
+@ f70d clear b
+# speaker: USA Mask
+JP リングで勝負ウサ！
+EN We settle this in the ring, usa!
+
+@ f71a clear 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP のぞむところ
+JP だよネ
+EN Suits me fine, y'know.
+
+@ f726 clear 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP 3冠ベルト
+JP わすれてたよネ！
+EN Forgot the belt, y'know!
+
+@ f736 clear 0
+# speaker: Misawa
+# ends on its own after a moment: keep it short
+JP 見かけによらずなかなかやるよネ
+EN Tougher than you look, y'know!
+
+@ f747 clear b
+# speaker: USA Mask
+JP おのれ・
+JP 全日本プロレスめ…
+EN Curse you, All Japan Pro Wrestling...
+
+@ f75a clear b
+# speaker: Misawa
+JP はっきりいって
+JP 楽勝だったよネ！
+EN Frankly, that was a breeze, y'know!
+
+@ f76d clear b
+# speaker: unknown, carries on from the line before
+JP ウササササ
+EN Usasasasa!
+
+@ f774 clear b
+# speaker: USA Mask
+JP おれたちの力を
+JP こんなものだと
+JP 思うなウサ！
+EN Don't think this is all we've got, usa!
+
+@ f78d clear b
+# speaker: Misawa
+JP おれたち！？
+EN "We"!?
+
+@ f795 clear b
+# speaker: USA Mask
+JP これからもっと
+JP 強力なレスラーが
+JP おまえたち
+JP 全日本プロレスを
+JP おそうウサ！
+EN Far stronger wrestlers will come after you All Japan Pro Wrestling lot, usa!
+
+@ f7c1 clear b
+# speaker: Misawa
+JP 何！？
+EN What!?
+
+@ f7c6 clear b
+# speaker: Kobashi
+JP 何っス！？
+EN What, sir!?
+
+@ f7cd clear b
+# speaker: Kikuchi
+JP なんだと！？
+EN What did you say!?
+
+@ f7d5 clear b
+# speaker: Misawa
+JP あっ！！
+EN Ah!!
+
+@ f7db clear b
+# speaker: a bystander, announcer or similar
+JP なぞのふくめん
+JP レスラー
+EN The mysterious masked wrestler...
+
+@ f7e9 newline b
+# speaker: a bystander, announcer or similar
+JP ウサマスクのやぼうは
+JP おわった
+EN USA Mask's ambitions have ended.
+
+@ f7fa newline b
+# speaker: a bystander, announcer or similar
+JP だが　より強力な
+JP 悪のレスラーが
+EN But even stronger evil wrestlers
+
+@ f80d newline b
+# speaker: a bystander, announcer or similar
+JP 全日本プロレスを
+JP ねらっているという…
+EN are said to be after All Japan Pro Wrestling...
+
+@ f825 newline b
+# speaker: a bystander, announcer or similar
+JP がんばれ　三沢！
+JP コバシ！　キクチ！
+EN Hang in there, Misawa! Kobashi! Kikuchi!
+
+@ f83a newline b
+# speaker: a bystander, announcer or similar
+JP 戦いはまだまだ…
+EN The battle goes on and on...
+
+@ f845 clear b
+# speaker: Kikuchi
+JP 生きてやがる！
+EN He's still alive!
+
+@ f84f clear b
+# speaker: Kobashi
+JP バクハツは
+JP みせかけだったっス！
+EN The explosion was just a fake, sir!
+
+@ f861 clear b
+# speaker: Misawa
+JP ………
+EN .........
+
+@ f866 clear 0
+# speaker: a bystander, announcer or similar
+# ends on its own after a moment: keep it short
+JP とにかくまだまだ
+JP つづくのだ！！
+EN Anyway, it goes on and on!!
+
+@ f878 more 0
+# speaker: Baba
+# ends on its own after a moment: keep it short
+JP 
+
+@ f879 clear b
+# speaker: narrator: a chapter title
+JP ラッシャー木村がんばるの巻
+EN Rusher Kimura Does His Best
+
+@ f88a clear b
+# speaker: a bystander, announcer or similar
+JP ババとラッシャーの
+JP 勝ちだー！！
+EN Baba and Rusher win!!
+
+@ f89d clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP チェッ　まけちゃった
+EN Tch. We lost.
+
+@ f8a9 clear b
+# speaker: Fuchi
+JP おぼえてろよ！！
+EN You'll pay for this!!
+
+@ f8b3 clear 0
+# speaker: unknown, carries on from the line before
+# ends on its own after a moment: keep it short
+JP こんばんは…
+JP ラッシャーきむらです…
+EN Good evening... Rusher Kimura...
+
+@ f8c7 clear b
+# speaker: Rusher Kimura
+JP さて…　かえろっか
+JP アニキ
+EN Well... shall we head home, Bro?
+
+@ f8d6 clear b
+# speaker: Baba
+JP うん
+EN Mm.
+
+@ f8da clear b
+# speaker: Red Bear
+JP まてい！！
+EN Hold it!!
+
+@ f8e1 clear b
+# speaker: Rusher Kimura
+JP なんだなんだ？
+EN Huh? What's going on?
+
+@ f8ea clear 0
+# speaker: Red Bear
+# ends on its own after a moment: keep it short
+JP わーーっ　照明
+JP つけるの早すぎだクマ！
+EN Waaah! Lights too soon, kuma!
+
+@ f902 clear b
+# speaker: unknown, carries on from the line before
+JP まったく…
+JP よっこいしょ
+EN Honestly... Heave-ho.
+
+@ f910 clear b
+# speaker: Red Bear
+JP フハハハハ
+JP またせたなクマ！
+EN Fuhahahaha! Sorry to keep you waiting, kuma!
+
+@ f920 clear 0
+# speaker: Red Bear
+# ends on its own after a moment: keep it short
+JP フフフ我々の名は
+JP レッドベア1号クマ
+EN We are Red Bear No. 1, kuma.
+
+@ f935 clear 0
+# speaker: Red Bear
+# ends on its own after a moment: keep it short
+JP 同じく2号クマ
+EN Ditto, No. 2, kuma.
+
+@ f93f clear 0
+# speaker: Red Bear
+# ends on its own after a moment: keep it short
+JP 同じく3号クマ
+EN Ditto, No. 3, kuma.
+
+@ f949 clear 0
+# speaker: Red Bear
+# ends on its own after a moment: keep it short
+JP 同じく4号クマ
+EN Ditto, No. 4, kuma.
+
+@ f953 clear 0
+# speaker: Red Bear
+# ends on its own after a moment: keep it short
+JP 同じく5号クマ
+EN Ditto, No. 5, kuma.
+
+@ f95d clear b
+# speaker: Rusher Kimura
+JP クマ　クマって
+EN Kuma this, kuma that...
+
+@ f966 newline b
+# speaker: Rusher Kimura
+JP おなじようなの
+JP ばっかりだな
+EN You all look the same, huh.
+
+@ f976 clear b
+# speaker: Rusher Kimura
+JP 1号くん
+JP 4号ってだれだっけ？
+EN Hey, No. 1. Which one was No. 4 again?
+
+@ f987 clear b
+# speaker: Red Bear
+JP ……
+EN ...
+
+@ f98b clear b
+# speaker: Red Bear
+JP と、とにかく　ババ！
+EN A-anyway, Baba!
+
+@ f997 clear b
+# speaker: Rusher Kimura
+JP あっ！！　あいつ
+JP わからないんだよ
+EN Ha!! Even he can't tell!
+
+@ f9aa clear b
+# speaker: Red Bear
+JP 我々はオマエたちに
+JP ちょうせん…
+EN We hereby challenge you...
+
+@ f9bc clear b
+# speaker: Rusher Kimura
+JP 目じるしぐらい
+JP つければいいのにね
+EN You oughta wear name tags or something, huh.
+
+@ f9d0 clear b
+# speaker: Red Bear
+JP うるさーーーい！！
+EN Shut uuup!!
+
+@ f9db clear b
+# speaker: Red Bear
+JP とにかく
+JP ちょうせんするクマ！
+EN Anyway, we challenge you, kuma!
+
+@ f9ec clear b
+# speaker: Red Bear
+JP そして我々が勝ち
+EN And we'll win
+
+@ f9f7 clear b
+# speaker: Red Bear
+JP チャンピオンに
+JP なるクマ！！
+EN and become Champion, kuma!!
+
+@ fa07 clear b
+# speaker: Red Bear
+JP 明日、この会場で
+JP まっているクマ！！
+EN We'll be waiting at this arena tomorrow, kuma!!
+
+@ fa1e clear b
+# speaker: Red Bear
+JP こなければ　我々の
+EN If you don't show up, it's our
+
+@ fa29 newline b
+# speaker: Red Bear
+JP 勝－
+EN vic-
+
+@ fa2f more b
+# speaker: Red Bear
+JP ち－
+EN to-
+
+@ fa33 more b
+# speaker: Red Bear
+JP だ－
+EN ry,
+
+@ fa37 more b
+# speaker: Red Bear
+JP ク－
+EN ku-
+
+@ fa3b more 0
+# speaker: Red Bear
+# ends on its own after a moment: keep it short
+JP マ！
+EN ma!
+
+@ fa3e clear b
+# speaker: Red Bear
+JP わーーっ
+JP まだ早いってば！
+EN Waaah! I said too soon!
+
+@ fa4e clear b
+# speaker: Baba
+JP なんだ今の？
+EN What was that just now?
+
+@ fa56 clear b
+# speaker: Rusher Kimura
+JP オレたち
+JP チャンピオンだっけ？
+EN Are we Champion or something?
+
+@ fa67 clear b
+# speaker: Baba
+JP なったおぼえは
+JP ないな…
+EN Not that I recall...
+
+@ fa75 clear b
+# speaker: Rusher Kimura
+JP わかった！！
+JP プロレスじゃなくって
+JP あれだよ
+EN I got it!! They don't mean wrestling, they mean that thing,
+
+@ fa8d clear b
+# speaker: Rusher Kimura
+JP アニキの出てる
+JP ＴＶのクイズで…ホラ
+EN that TV quiz you're on, Bro... you know,
+
+@ faa2 clear b
+# speaker: Rusher Kimura
+JP たしか
+JP ショーバイ…
+EN I think it's Show by Shobai...
+
+@ faae clear b
+# speaker: Baba
+JP ポーー
+EN Pohhh!
+
+@ fab3 clear b
+# speaker: Baba
+JP そしてポー！！
+EN And Poh!!
+
+@ fabc clear b
+# speaker: Rusher Kimura
+JP どうしようアニキー？
+EN What do we do, Broooo?
+
+@ fac8 clear b
+# speaker: Rusher Kimura
+JP ムシするのも
+JP シャクだしさーー
+EN Ignorin' 'em would just tick me off...
+
+@ fad9 clear b
+# speaker: Rusher Kimura
+JP 相手は5人
+EN There's 5 of 'em,
+
+@ fae3 clear b
+# speaker: Rusher Kimura
+JP メンバーも集め
+JP ないと…
+EN so we gotta get a team together...
+
+@ faf2 clear b
+# speaker: Baba
+JP お前が大将やって
+JP いいよ
+EN You can be the captain.
+
+@ fb03 clear b
+# speaker: Rusher Kimura
+JP えーーーーっ！！
+JP アニキ　そんな！！
+EN Whaaat!! Bro, you can't!!
+
+@ fb17 clear b
+# speaker: Baba
+JP オレ　明日は
+JP シゴトがあるんだよ
+EN I have work tomorrow.
+
+@ fb2b clear b
+# speaker: Rusher Kimura
+JP そうか！ひょっとして
+JP ショーバイ…
+EN I get it! Could it be Show by Shobai...
+
+@ fb3e clear b
+# speaker: Baba
+JP とにかくオレは
+JP 出られないから
+EN Anyway, I can't make it,
+
+@ fb50 clear b
+# speaker: Baba
+JP メンバーを
+JP 集めなさい！
+EN so go gather a team!
+
+@ fb5f clear 0
+# speaker: Rusher Kimura
+# ends on its own after a moment: keep it short
+JP ハーーーイ
+EN Okaaay.
+
+@ fb66 clear 0
+# speaker: unknown, carries on from the line before
+# ends on its own after a moment: keep it short
+JP フチの家だな…
+EN Fuchi's place...
+
+@ fb6f clear b
+# speaker: Rusher Kimura
+JP あれフチ！
+JP 何やってんの？
+EN Hey, Fuchi! What're you up to?
+
+@ fb7e clear b
+# speaker: Fuchi
+JP 久々の休日なのに
+JP おそうじだよ
+EN First day off in ages and I'm stuck cleanin'.
+
+@ fb90 clear b
+# speaker: Fuchi
+JP 一人身はつかれるな
+EN Bachelor life wears ya out.
+
+@ fb9d clear b
+# speaker: Fuchi
+JP ヨメさん　しょうかい
+JP してくれよ…
+EN Find me a wife, will ya...
+
+@ fbb0 clear b
+# speaker: Rusher Kimura
+JP ………そんなことよりさひそ　ひそ
+EN ...Never mind that. Whisper, whisper...
+
+@ fbc2 clear b
+# speaker: Fuchi
+JP なにーー！！
+JP そりゃ本当か！？
+EN Whaaat!! You serious!?
+
+@ fbd5 clear b
+# speaker: Rusher Kimura
+JP いっしょに
+JP たたかってくれよ
+EN Fight alongside us, will ya?
+
+@ fbe5 clear b
+# speaker: Fuchi
+JP うーーん…
+EN Hmmm...
+
+@ fbec clear b
+# speaker: Fuchi
+JP とはいっても
+JP いつもは敵どうしだし
+EN Still, we're usually enemies...
+
+@ fc00 clear b
+# speaker: Fuchi
+JP よし　ここは
+JP プロレスで
+JP きめることにしよう！
+EN Okay, let's settle this with wrestling!
+
+@ fc19 clear b
+# speaker: Rusher Kimura
+JP おーーいフチーーー
+EN Heyyy, Fuchiii!
+
+@ fc24 clear b
+# speaker: Fuchi
+JP なんだ　またやるのか
+JP 何度きても
+EN What, you again? No matter how often you come,
+
+@ fc37 clear b
+# speaker: Fuchi
+JP オレは弱いやつと
+JP 組む気はないぞ
+EN I ain't teamin' with a weakling.
+
+@ fc4b clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP なかなかやるな
+EN Not half bad.
+
+@ fc54 clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP さすがはカナアミの
+EN Figures, from the man they call
+
+@ fc5f more b
+# speaker: Fuchi
+JP オニといわれた男
+EN the Demon of the Steel Cage.
+
+@ fc69 clear b
+# speaker: Rusher Kimura
+JP よーーし
+JP じゃあエーゲンちに
+JP いくか
+EN Alriiight! Now let's go to Eigen's.
+
+@ fc7d clear b
+# speaker: Rusher Kimura
+JP おい
+JP エーゲン入るぞ
+EN Hey, Eigen! I'm comin' in!
+
+@ fc8a more b
+# speaker: unknown, carries on from the line before
+JP なんだ　ツバとばしの
+JP 練習中か…
+EN Huh, you're practicing your spitting...
+
+@ fc9e clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP なんだよラッシャー
+EN Whaddya want, Rusher?
+
+@ fca9 clear b
+# speaker: Rusher Kimura
+JP 実はな…
+JP かくかくで
+JP しかじか…
+EN See, it's like this... Blah blah, yadda yadda...
+
+@ fcbb clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP なに！！
+JP ちょうせんだって！！
+EN What!! A challenge, ya say!!
+
+@ fccc clear b
+# speaker: Rusher Kimura
+JP 力をかしてくれないか？
+EN Will you lend me a hand?
+
+@ fcda clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP オレにプロレスで勝てば力かしてもいいぞ
+EN Beat me at wrestling and I'll lend ya a hand.
+
+@ fcf1 clear b
+# speaker: Rusher Kimura
+JP ……なんかマージャンのゲームみたいだな…
+EN ...This is kinda like one of those mahjong video games...
+
+@ fd07 clear b
+# speaker: Rusher Kimura
+JP おーいエーゲン
+EN Heyyy, Eigen!
+
+@ fd10 clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP なんだよ
+JP オレは弱いやつとは
+JP くまないよ
+EN What now? I don't team up with weaklings!
+
+@ fd27 more b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP オニ………
+EN The Demon...
+
+@ fd2d clear b
+# speaker: unknown wrestler (portrait 12:3), read the context
+JP これならリーダーと
+JP みとめてもいいな
+EN After that, I can accept you as captain.
+
+@ fd41 clear b
+# speaker: Rusher Kimura
+JP よーし
+JP 次はイズミダをさそうか！
+EN All right! Let's ask Izumida next!
+
+@ fd53 clear b
+# speaker: Rusher Kimura
+JP おいイズミダ
+JP 入るぞ
+EN Hey, Izumida! I'm comin' in!
+
+@ fd60 clear b
+# speaker: Izumida
+JP あれ？
+EN Huh?
+
+@ fd65 clear b
+# speaker: Izumida
+JP ラッシャーさん
+JP どうしたズミダ？
+EN Rusher! What's up, zumida?
+
+@ fd77 clear b
+# speaker: Rusher Kimura
+JP じつはかくかく
+JP しかじか
+EN See, it's like this... Blah blah, yadda yadda...
+
+@ fd85 clear b
+# speaker: Izumida
+JP チャンピオンズミダ？
+EN Champion, zumida?
+
+@ fd91 clear b
+# speaker: Rusher Kimura
+JP で　イズミダもさ
+EN So, Izumida, you too...
+
+@ fd9b clear b
+# speaker: Rusher Kimura
+JP メンバーに
+JP 入ってくれよ
+EN ...come join the team, will ya?
+
+@ fdaa clear b
+# speaker: Izumida
+JP プロレスでボクに
+JP 勝てばいいズミダ
+EN Beat me at wrestling and I'm in, zumida.
+
+@ fdbe clear 0
+# speaker: Rusher Kimura
+# ends on its own after a moment: keep it short
+JP いいから入るんだよ！！
+EN Just join already!!
+
+@ fdcc clear b
+# speaker: Rusher Kimura
+JP と　いうわけなんだけど力かしてくれよ
+EN So that's the deal. Lend me a hand, will ya?
+
+@ fde1 clear b
+# speaker: Misawa
+JP はっきりいって
+EN Frankly,
+
+@ fdea clear b
+# speaker: Misawa
+JP うちのメンバーに
+JP プロレスで勝てたら
+EN if you can beat my guys at wrestling...
+
+@ fdff clear b
+# speaker: Misawa
+JP ダレでもつれていっていいですヨ
+EN ...you can take anybody you like, y'know!
+
+@ fe10 clear b
+# speaker: Tsuruta
+JP もちろんいいですよ
+JP うちのメンバーだれでも
+EN Sure, you can have anyone on my team...
+
+@ fe27 clear b
+# speaker: Tsuruta
+JP プロレスに勝つことが
+JP できたら…
+EN ...so long as you can beat them at wrestling...
+
+@ fe3a clear b
+# speaker: Hansen
+JP ミーたちのハートを
+JP うごかすには…
+EN To move heart of me and my guys...
+
+@ fe4d clear b
+# speaker: Hansen
+JP 勝負にかつしか
+JP ないウィー！
+EN ...only way is win match, Weee!
+
+@ fe5f clear b
+# speaker: Rusher Kimura
+JP もう一度
+JP チャンスをくれよ…
+EN Gimme one more chance...
+
+@ fe70 clear b
+# speaker: Misawa
+JP また最初から
+JP チャレンジですネ
+EN Then it's back to the start for you, y'know!
+
+@ fe82 clear b
+# speaker: Tsuruta
+JP いいですよ
+EN Sure thing.
+
+@ fe89 clear b
+# speaker: Tsuruta
+JP また始めから
+JP えらんでください
+EN Go ahead and pick again from the start.
+
+@ fe9a clear b
+# speaker: Hansen
+JP わかったウィー
+EN Me understand, Weee!
+
+@ fea3 clear b
+# speaker: Hansen
+JP 始めから
+JP メンバーをえらぶウィー
+EN Choose members from beginning, Weee!
+
+@ feb5 clear b
+# speaker: unknown, carries on from the line before
+JP 対戦相手を
+JP 選んで下さい
+EN Choose your opponent.
+
+@ fec8 clear b
+# speaker: Rusher Kimura
+JP よーーし　5人
+JP そろったし
+JP 敵のまつ会場に
+JP 直行だーーーっ
+EN Alriiight! That's all 5 of us! Straight to the arena where the enemy's waitin', let's gooo!
+
+@ feeb clear b
+# speaker: Red Bear
+JP どうやら5人
+JP そろえたクマな
+EN So you got your 5 men, kuma.
+
+@ fefc clear b
+# speaker: Red Bear
+JP ババはどうしたクマ？
+EN Where's Baba, kuma?
+
+@ ff08 clear b
+# speaker: Rusher Kimura
+JP アニキはショーバ…
+JP 他のシゴトだ！
+EN Bro's on Show by Shobai... Uh, he's got another job!
+
+@ ff1c clear b
+# speaker: Red Bear
+JP ムムッ…
+EN Hrrm...
+
+@ ff22 clear b
+# speaker: Red Bear
+JP 負けてもモンクは
+JP いわせないクマ！！
+EN No complaining when you lose, kuma!!
+
+@ ff37 clear b
+# speaker: Rusher Kimura
+JP さぁ勝負だ！
+EN Now, let's fight!
+
+@ ff41 clear b
+# speaker: Rusher Kimura
+JP もう一度勝負だ！
+EN One more match!
+
+@ ff4e clear 0
+# speaker: Red Bear
+# ends on its own after a moment: keep it short
+JP 何度やっても
+JP 同じことクマ！
+EN It'll end the same, kuma!
+
+@ ff60 clear b
+# speaker: Red Bear
+JP うう…
+EN Ugh...
+
+@ ff65 clear b
+# speaker: Red Bear
+JP やはりチャンピオンへの
+JP 道は遠かったか…
+EN So the road to Champion was a long one after all...
+
+@ ff7c clear b
+# speaker: Rusher Kimura
+JP いや…あの
+JP 実はオレとアニキは…
+EN Uh, no... See, actually, Bro and I...
+
+@ ff8e clear b
+# speaker: Red Bear
+JP さらばクマ！
+EN Farewell, kuma!
+
+@ ff96 clear b
+# speaker: Red Bear
+JP わーーーっ
+JP まだだってばクマ！
+EN Waaah! Not yet, I said, kuma!
+
+@ ffa7 clear b
+# speaker: unknown, carries on from the line before
+JP まあ…
+JP なんとかメンツは
+JP たもてたな…
+EN Well... I guess we saved face, at least...
+
+@ ffbc clear b
+# speaker: Baba
+JP よくやったぞ
+JP ラッシャー
+EN Well done, Rusher.
+
+@ ffca clear b
+# speaker: Rusher Kimura
+JP アッ　アニキ！
+JP 
+JP アニキのほうは
+JP どうだったんだよ
+EN Ah! Bro! So how'd it go on your end?
+
+@ ffe5 clear b
+# speaker: Rusher Kimura
+JP クイズの問題のほうは…
+EN The quiz questions, I mean...

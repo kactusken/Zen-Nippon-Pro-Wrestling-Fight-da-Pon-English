@@ -1,0 +1,2 @@
+# The Otasuke Select title art (tools/title.py draws it): the word, 7 letters, only PARTNER for now.
+PARTNER

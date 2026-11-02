@@ -1,0 +1,236 @@
+# Short strings. password0-2: the password screen (width limits 224, 176, 144 px).
+# bar00-22: the name bars in a match, A-Z and - only.
+# name00-31: wrestler names for the name code, in the name table order.
+
+@ password0
+JP パスワードを入力してください
+EN Enter your password
+
+@ password1
+JP パスワードがちがいます
+EN Wrong password!
+
+@ password2
+JP パスワードだよーん
+EN Your password:
+
+@ name00
+JP 馬場
+EN Baba
+
+@ name01
+JP 鶴田
+EN Tsuruta
+
+@ name02
+JP ハンセン
+EN Hansen
+
+@ name03
+JP 三沢
+EN Misawa
+
+@ name04
+JP 川田
+EN Kawada
+
+@ name05
+JP 田上
+EN Taue
+
+@ name06
+JP ウイリアムス
+EN Williams
+
+@ name07
+JP ゴディー
+EN Gordy
+
+@ name08
+JP コバシ
+EN Kobashi
+
+@ name09
+JP フチ
+EN Fuchi
+
+@ name10
+JP パトリオット
+EN Patriot
+
+@ name11
+JP キクチ
+EN Kikuchi
+
+@ name12
+JP 木村
+EN Kimura
+
+@ name13
+JP アキヤマ
+EN Akiyama
+
+@ name14
+JP エーゲン
+EN Eigen
+
+@ name15
+JP イズミダ
+EN Izumida
+
+@ name16
+JP 戦とう員1
+EN Grunt 1
+
+@ name17
+JP 戦とう員2
+EN Grunt 2
+
+@ name18
+JP 戦とう員3
+EN Grunt 3
+
+@ name19
+JP 戦とう員4
+EN Grunt 4
+
+@ name20
+JP 戦とう員5
+EN Grunt 5
+
+@ name21
+JP 超時空仮面
+EN Hyperspace Mask
+
+@ name22
+JP ウサマスク
+EN USA Mask
+
+@ name23
+JP ツタン仮面
+EN Tutan Mask
+
+@ name24
+JP レッドベア1
+EN Red Bear 1
+
+@ name25
+JP レッドベア2
+EN Red Bear 2
+
+@ name26
+JP レッドベア3
+EN Red Bear 3
+
+@ name27
+JP レッドベア4
+EN Red Bear 4
+
+@ name28
+JP レッドベア5
+EN Red Bear 5
+
+@ name29
+JP メカ馬場
+EN Mecha Baba
+
+@ name30
+JP －
+EN -
+
+@ name31
+JP －
+EN -
+
+@ bar00
+JP カワダ
+EN KAWADA
+
+@ bar01
+JP アキヤマ
+EN AKIYAMA
+
+@ bar02
+JP エーゲン
+EN EIGEN
+
+@ bar03
+JP イズミダ
+EN IZUMIDA
+
+@ bar04
+JP コバシ
+EN KOBASHI
+
+@ bar05
+JP ミサワ
+EN MISAWA
+
+@ bar06
+JP ツルタ
+EN TSURUTA
+
+@ bar07
+JP ハンセン
+EN HANSEN
+
+@ bar08
+JP タウエ
+EN TAUE
+
+@ bar09
+JP ゴディ
+EN GORDY
+
+@ bar10
+JP ウイリアムス
+EN WILLIAMS
+
+@ bar11
+JP キムラ
+EN KIMURA
+
+@ bar12
+JP フチ
+EN FUCHI
+
+@ bar13
+JP パトリオット
+EN PATRIOT
+
+@ bar14
+JP キクチ
+EN KIKUCHI
+
+@ bar15
+JP ババ
+EN BABA
+
+@ bar16
+JP メカババ
+EN MECHABABA
+
+@ bar17
+JP ウサ
+EN USA
+
+@ bar18
+JP 時空
+EN HYPER
+
+@ bar19
+JP ツタン
+EN TUTAN
+
+@ bar20
+JP ザコ
+EN GRUNT
+
+@ bar21
+JP シマウマ
+EN ZEBRA
+
+@ bar22
+JP Rクマ
+EN R-BEAR
+
